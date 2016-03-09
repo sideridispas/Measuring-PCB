@@ -10178,7 +10178,7 @@ every connection outside the board</text>
 <instance part="C29" gate="G$1" x="373.38" y="-30.48"/>
 <instance part="C30" gate="G$1" x="447.04" y="-30.48"/>
 <instance part="C31" gate="G$1" x="-17.78" y="-22.86"/>
-<instance part="R9" gate="G$1" x="0" y="-25.4" rot="R90"/>
+<instance part="R9" gate="G$1" x="5.08" y="-25.4" rot="R90"/>
 <instance part="C32" gate="G$1" x="40.64" y="-200.66" rot="R90"/>
 <instance part="C33" gate="G$1" x="40.64" y="-210.82" rot="R90"/>
 <instance part="Q2" gate="G$1" x="50.8" y="-205.74" rot="R270"/>
@@ -10509,6 +10509,11 @@ every connection outside the board</text>
 <wire x1="241.3" y1="124.46" x2="248.92" y2="124.46" width="0.1524" layer="91"/>
 <label x="248.92" y="124.46" size="1.778" layer="95" xref="yes"/>
 <pinref part="ADC" gate="A" pin="~DRDY"/>
+</segment>
+<segment>
+<pinref part="ATMEGA328" gate="U$1" pin="PD2(INT0)"/>
+<wire x1="132.08" y1="-205.74" x2="134.62" y2="-205.74" width="0.1524" layer="91"/>
+<label x="134.62" y="-205.74" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -11191,23 +11196,23 @@ every connection outside the board</text>
 <pinref part="3V3_REGULATOR" gate="A" pin="VOUT"/>
 <wire x1="431.8" y1="-20.32" x2="447.04" y2="-20.32" width="0.1524" layer="91"/>
 <pinref part="C30" gate="G$1" pin="1"/>
-<wire x1="447.04" y1="-20.32" x2="477.52" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="447.04" y1="-20.32" x2="459.74" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="447.04" y1="-25.4" x2="447.04" y2="-20.32" width="0.1524" layer="91"/>
 <junction x="447.04" y="-20.32"/>
-<label x="477.52" y="-20.32" size="1.778" layer="95" xref="yes"/>
+<label x="459.74" y="-20.32" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="RTC" gate="G$1" pin="VCC"/>
-<wire x1="35.56" y1="-15.24" x2="0" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="-15.24" x2="5.08" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="C31" gate="G$1" pin="1"/>
-<wire x1="0" y1="-15.24" x2="-17.78" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="-15.24" x2="-17.78" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="-15.24" x2="-25.4" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="-17.78" x2="-17.78" y2="-15.24" width="0.1524" layer="91"/>
 <junction x="-17.78" y="-15.24"/>
 <label x="-25.4" y="-15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="0" y1="-20.32" x2="0" y2="-15.24" width="0.1524" layer="91"/>
-<junction x="0" y="-15.24"/>
+<wire x1="5.08" y1="-20.32" x2="5.08" y2="-15.24" width="0.1524" layer="91"/>
+<junction x="5.08" y="-15.24"/>
 </segment>
 </net>
 <net name="N$21" class="0">
@@ -11220,15 +11225,20 @@ every connection outside the board</text>
 <wire x1="373.38" y1="-22.86" x2="373.38" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SQW" class="0">
+<net name="RTC_SQW" class="0">
 <segment>
 <pinref part="RTC" gate="G$1" pin="INT/SQW"/>
-<wire x1="35.56" y1="-35.56" x2="0" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="-35.56" x2="5.08" y2="-35.56" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="0" y1="-35.56" x2="-5.08" y2="-35.56" width="0.1524" layer="91"/>
-<wire x1="0" y1="-30.48" x2="0" y2="-35.56" width="0.1524" layer="91"/>
-<junction x="0" y="-35.56"/>
-<label x="-5.08" y="-35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="5.08" y1="-35.56" x2="0" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="-30.48" x2="5.08" y2="-35.56" width="0.1524" layer="91"/>
+<junction x="5.08" y="-35.56"/>
+<label x="0" y="-35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="ATMEGA328" gate="U$1" pin="PD3(INT1)"/>
+<wire x1="132.08" y1="-208.28" x2="149.86" y2="-208.28" width="0.1524" layer="91"/>
+<label x="149.86" y="-208.28" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MISO" class="0">
