@@ -10171,7 +10171,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <text x="-5.08" y="-91.44" size="5.08" layer="98">Real Time Clock</text>
 <text x="-5.08" y="-175.26" size="5.08" layer="98">Standalone Arduino (atmega328)</text>
 <text x="327.66" y="-175.26" size="5.08" layer="98">Connectors</text>
-<text x="406.4" y="-228.6" size="6.4516" layer="98">Measuring PCB v1</text>
+<text x="406.4" y="-228.6" size="6.4516" layer="98">Measuring PCB v2.0</text>
 <wire x1="370.84" y1="-281.94" x2="370.84" y2="-248.92" width="0.1524" layer="98"/>
 <wire x1="370.84" y1="-248.92" x2="370.84" y2="-233.68" width="0.1524" layer="98"/>
 <wire x1="370.84" y1="-233.68" x2="370.84" y2="-215.9" width="0.1524" layer="98"/>

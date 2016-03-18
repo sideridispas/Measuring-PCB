@@ -11056,6 +11056,11 @@ every connection outside the board</text>
 <wire x1="403.86" y1="22.86" x2="426.72" y2="22.86" width="0.1524" layer="91"/>
 <label x="426.72" y="22.86" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="ATMEGA328" gate="U$1" pin="PD5(T1)"/>
+<wire x1="132.08" y1="-228.6" x2="134.62" y2="-228.6" width="0.1524" layer="91"/>
+<label x="134.62" y="-228.6" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="OUT1_ISO" class="0">
 <segment>
@@ -11068,12 +11073,22 @@ every connection outside the board</text>
 <wire x1="132.08" y1="-231.14" x2="149.86" y2="-231.14" width="0.1524" layer="91"/>
 <label x="149.86" y="-231.14" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="ATMEGA328" gate="U$1" pin="PB1(OC1A)"/>
+<wire x1="132.08" y1="-241.3" x2="149.86" y2="-241.3" width="0.1524" layer="91"/>
+<label x="149.86" y="-241.3" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="OUT2_ISO" class="0">
 <segment>
 <pinref part="SIGNAL_ISOLATOR" gate="IC" pin="INB2"/>
 <wire x1="403.86" y1="17.78" x2="426.72" y2="17.78" width="0.1524" layer="91"/>
 <label x="426.72" y="17.78" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="ATMEGA328" gate="U$1" pin="PB2(SS/OC1B)"/>
+<wire x1="132.08" y1="-243.84" x2="165.1" y2="-243.84" width="0.1524" layer="91"/>
+<label x="165.1" y="-243.84" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SDA_ISO" class="0">

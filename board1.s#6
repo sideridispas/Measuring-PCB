@@ -11073,11 +11073,6 @@ every connection outside the board</text>
 <wire x1="132.08" y1="-231.14" x2="149.86" y2="-231.14" width="0.1524" layer="91"/>
 <label x="149.86" y="-231.14" size="1.778" layer="95" xref="yes"/>
 </segment>
-<segment>
-<pinref part="ATMEGA328" gate="U$1" pin="PB1(OC1A)"/>
-<wire x1="132.08" y1="-241.3" x2="149.86" y2="-241.3" width="0.1524" layer="91"/>
-<label x="149.86" y="-241.3" size="1.778" layer="95" xref="yes"/>
-</segment>
 </net>
 <net name="OUT2_ISO" class="0">
 <segment>

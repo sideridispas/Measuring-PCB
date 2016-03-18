@@ -10139,21 +10139,21 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <sheets>
 <sheet>
 <plain>
-<wire x1="-78.74" y1="137.16" x2="91.44" y2="137.16" width="0.1524" layer="98" style="longdash"/>
-<wire x1="91.44" y1="137.16" x2="294.64" y2="137.16" width="0.1524" layer="98" style="longdash"/>
-<wire x1="294.64" y1="137.16" x2="513.08" y2="137.16" width="0.1524" layer="98" style="longdash"/>
+<wire x1="-78.74" y1="137.16" x2="91.44" y2="137.16" width="0.1524" layer="98"/>
+<wire x1="91.44" y1="137.16" x2="294.64" y2="137.16" width="0.1524" layer="98"/>
+<wire x1="294.64" y1="137.16" x2="513.08" y2="137.16" width="0.1524" layer="98"/>
 <wire x1="513.08" y1="137.16" x2="513.08" y2="-25.4" width="0.1524" layer="98"/>
-<wire x1="513.08" y1="-25.4" x2="513.08" y2="-134.62" width="0.1524" layer="98" style="longdash"/>
-<wire x1="513.08" y1="-134.62" x2="513.08" y2="-215.9" width="0.1524" layer="98" style="longdash"/>
-<wire x1="513.08" y1="-215.9" x2="513.08" y2="-233.68" width="0.1524" layer="98" style="longdash"/>
-<wire x1="513.08" y1="-233.68" x2="513.08" y2="-248.92" width="0.1524" layer="98" style="longdash"/>
-<wire x1="513.08" y1="-248.92" x2="513.08" y2="-281.94" width="0.1524" layer="98" style="longdash"/>
-<wire x1="513.08" y1="-281.94" x2="370.84" y2="-281.94" width="0.1524" layer="98" style="longdash"/>
-<wire x1="370.84" y1="-281.94" x2="294.64" y2="-281.94" width="0.1524" layer="98" style="longdash"/>
-<wire x1="294.64" y1="-281.94" x2="-78.74" y2="-281.94" width="0.1524" layer="98" style="longdash"/>
-<wire x1="-78.74" y1="-281.94" x2="-78.74" y2="-134.62" width="0.1524" layer="98" style="longdash"/>
-<wire x1="-78.74" y1="-134.62" x2="-78.74" y2="-25.4" width="0.1524" layer="98" style="longdash"/>
-<wire x1="-78.74" y1="-25.4" x2="-78.74" y2="137.16" width="0.1524" layer="98" style="longdash"/>
+<wire x1="513.08" y1="-25.4" x2="513.08" y2="-134.62" width="0.1524" layer="98"/>
+<wire x1="513.08" y1="-134.62" x2="513.08" y2="-215.9" width="0.1524" layer="98"/>
+<wire x1="513.08" y1="-215.9" x2="513.08" y2="-233.68" width="0.1524" layer="98"/>
+<wire x1="513.08" y1="-233.68" x2="513.08" y2="-248.92" width="0.1524" layer="98"/>
+<wire x1="513.08" y1="-248.92" x2="513.08" y2="-281.94" width="0.1524" layer="98"/>
+<wire x1="513.08" y1="-281.94" x2="370.84" y2="-281.94" width="0.1524" layer="98"/>
+<wire x1="370.84" y1="-281.94" x2="294.64" y2="-281.94" width="0.1524" layer="98"/>
+<wire x1="294.64" y1="-281.94" x2="-78.74" y2="-281.94" width="0.1524" layer="98"/>
+<wire x1="-78.74" y1="-281.94" x2="-78.74" y2="-134.62" width="0.1524" layer="98"/>
+<wire x1="-78.74" y1="-134.62" x2="-78.74" y2="-25.4" width="0.1524" layer="98"/>
+<wire x1="-78.74" y1="-25.4" x2="-78.74" y2="137.16" width="0.1524" layer="98"/>
 <wire x1="-78.74" y1="-25.4" x2="91.44" y2="-25.4" width="0.1524" layer="98" style="longdash"/>
 <wire x1="91.44" y1="-25.4" x2="294.64" y2="-25.4" width="0.1524" layer="98" style="longdash"/>
 <wire x1="294.64" y1="-25.4" x2="513.08" y2="-25.4" width="0.1524" layer="98" style="longdash"/>
@@ -10164,13 +10164,13 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="294.64" y1="137.16" x2="294.64" y2="-25.4" width="0.1524" layer="98" style="longdash"/>
 <wire x1="91.44" y1="-25.4" x2="91.44" y2="-134.62" width="0.1524" layer="98" style="longdash"/>
 <wire x1="294.64" y1="-25.4" x2="294.64" y2="-134.62" width="0.1524" layer="98" style="longdash"/>
-<text x="-73.66" y="127" size="6.4516" layer="98">Electrical Measurements</text>
-<text x="96.52" y="127" size="6.4516" layer="98">Analog-Digital Conversion</text>
-<text x="299.72" y="127" size="6.4516" layer="98">Isolation</text>
-<text x="96.52" y="-35.56" size="6.4516" layer="98">Voltage Reference for ADC</text>
-<text x="-73.66" y="-35.56" size="6.4516" layer="98">Real Time Clock</text>
-<text x="-73.66" y="-144.78" size="6.4516" layer="98">Standalone Arduino (atmega328)</text>
-<text x="299.72" y="-147.32" size="6.4516" layer="98">Connectors</text>
+<text x="-73.66" y="127" size="5.08" layer="98">Electrical Measurements</text>
+<text x="96.52" y="127" size="5.08" layer="98">Analog-Digital Conversion</text>
+<text x="299.72" y="127" size="5.08" layer="98">Isolation</text>
+<text x="96.52" y="-35.56" size="5.08" layer="98">Voltage Reference for ADC</text>
+<text x="-73.66" y="-35.56" size="5.08" layer="98">Real Time Clock</text>
+<text x="-73.66" y="-144.78" size="5.08" layer="98">Standalone Arduino (atmega328)</text>
+<text x="299.72" y="-147.32" size="5.08" layer="98">Connectors</text>
 <text x="411.48" y="-228.6" size="6.4516" layer="98">Measuring PCB</text>
 <wire x1="370.84" y1="-281.94" x2="370.84" y2="-248.92" width="0.1524" layer="98"/>
 <wire x1="370.84" y1="-248.92" x2="370.84" y2="-233.68" width="0.1524" layer="98"/>
@@ -10193,7 +10193,7 @@ are collected from the microprocessor Atmega328
 and send out as I2C packages. Isolation is placed in
 every connection outside the board</text>
 <wire x1="294.64" y1="-134.62" x2="294.64" y2="-281.94" width="0.1524" layer="98" style="longdash"/>
-<text x="299.72" y="-38.1" size="6.4516" layer="98">3V3 Regulator</text>
+<text x="299.72" y="-38.1" size="5.08" layer="98">3V3 Regulator</text>
 </plain>
 <instances>
 <instance part="VPANEL" gate="G$1" x="-48.26" y="104.14"/>

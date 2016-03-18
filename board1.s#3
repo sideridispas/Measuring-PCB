@@ -10187,11 +10187,11 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <text x="441.96" y="-238.76" size="2.54" layer="98">date</text>
 <text x="462.28" y="-246.38" size="5.08" layer="98">March 2016</text>
 <text x="373.38" y="-254" size="2.54" layer="98">description</text>
-<text x="378.46" y="-279.4" size="3.302" layer="98">This board measures Voltage, Current and Temperature.
-In addition, it get a Date and Time stamp. The data
-are collected from the microprocessor Atmega328
-and send out as I2C packages. Isolation is placed in
-every connection outside the board</text>
+<text x="378.46" y="-279.4" size="3.302" layer="98">This board measures Voltage, Current and Temperature of a PV
+panel.In addition, it gets Date and Time stamp. The data are
+collected by the microprocessor Atmega328 and send out as
+I2C packages to master board. Every connection outside the
+board is isolated.</text>
 <wire x1="294.64" y1="-134.62" x2="294.64" y2="-281.94" width="0.1524" layer="98" style="longdash"/>
 <text x="299.72" y="-38.1" size="5.08" layer="98">3V3 Regulator</text>
 </plain>

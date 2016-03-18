@@ -10191,7 +10191,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 panel.In addition, it gets Date and Time stamp. The data are
 collected by the microprocessor Atmega328 and send out as
 I2C packages to master board. Every connection outside the
-board is isolated.</text>
+board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <wire x1="294.64" y1="-134.62" x2="294.64" y2="-281.94" width="0.1524" layer="98" style="longdash"/>
 <text x="299.72" y="-38.1" size="5.08" layer="98">3V3 Regulator</text>
 </plain>
