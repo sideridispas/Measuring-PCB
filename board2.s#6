@@ -10108,8 +10108,8 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="DC-DC" library="Analog Devices_By_element14_Batch_1" deviceset="ADUM5000ARWZ" device=""/>
 <part name="SIGNAL_ISOLATOR" library="MAX14850ASE" deviceset="IC_DIL16" device="-SOIC-16"/>
 <part name="TO_MASTER_BOARD" library="pinhead" deviceset="PINHD-1X8" device=""/>
-<part name="C18" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="10u"/>
-<part name="C19" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="0.1u"/>
+<part name="C18" library="adafruit" deviceset="C-US" device="C3216" value="10u"/>
+<part name="C19" library="adafruit" deviceset="C-US" device="C3216" value="0.1u"/>
 <part name="C20" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="10u"/>
 <part name="C21" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="0.1u"/>
 <part name="C22" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="0.1u"/>
@@ -10634,10 +10634,10 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <wire x1="391.16" y1="33.02" x2="368.3" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="368.3" y1="33.02" x2="360.68" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="360.68" y1="33.02" x2="355.6" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="360.68" y1="30.48" x2="360.68" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="360.68" y1="27.94" x2="360.68" y2="33.02" width="0.1524" layer="91"/>
 <junction x="360.68" y="33.02"/>
 <pinref part="C19" gate="G$1" pin="1"/>
-<wire x1="368.3" y1="30.48" x2="368.3" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="368.3" y1="27.94" x2="368.3" y2="33.02" width="0.1524" layer="91"/>
 <junction x="368.3" y="33.02"/>
 <label x="355.6" y="33.02" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="DC-DC" gate="A" pin="RCSEL"/>
@@ -10697,10 +10697,8 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <pinref part="DC-DC" gate="A" pin="GND1"/>
 <wire x1="386.08" y1="7.62" x2="393.7" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="C19" gate="G$1" pin="2"/>
-<wire x1="368.3" y1="22.86" x2="368.3" y2="20.32" width="0.1524" layer="91"/>
 <junction x="368.3" y="20.32"/>
 <pinref part="C18" gate="G$1" pin="2"/>
-<wire x1="360.68" y1="22.86" x2="360.68" y2="20.32" width="0.1524" layer="91"/>
 <junction x="360.68" y="20.32"/>
 <label x="355.6" y="20.32" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="DC-DC" gate="A" pin="NC_2"/>

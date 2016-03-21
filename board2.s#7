@@ -10107,7 +10107,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="RESET_BUTTON" library="SparkFun-Retired" deviceset="TAC_SWITCH" device="SMD" value="TAC_SWITCHSMD"/>
 <part name="DC-DC" library="Analog Devices_By_element14_Batch_1" deviceset="ADUM5000ARWZ" device=""/>
 <part name="SIGNAL_ISOLATOR" library="MAX14850ASE" deviceset="IC_DIL16" device="-SOIC-16"/>
-<part name="TO_MASTER_BOARD" library="pinhead" deviceset="PINHD-1X8" device="/90"/>
+<part name="TO_MASTER_BOARD" library="pinhead" deviceset="PINHD-1X8" device=""/>
 <part name="C18" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="10u"/>
 <part name="C19" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="0.1u"/>
 <part name="C20" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="10u"/>
