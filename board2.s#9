@@ -10185,8 +10185,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <pinref part="C5" gate="G$1" pin="2"/>
 <wire x1="281.94" y1="-134.62" x2="281.94" y2="-144.78" width="0.1524" layer="91"/>
 <junction x="281.94" y="-144.78"/>
-<wire x1="281.94" y1="-144.78" x2="287.02" y2="-144.78" width="0.1524" layer="91"/>
-<wire x1="287.02" y1="-144.78" x2="289.56" y2="-144.78" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="-144.78" x2="289.56" y2="-144.78" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="-144.78" x2="281.94" y2="-144.78" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="271.78" y1="-134.62" x2="271.78" y2="-144.78" width="0.1524" layer="91"/>
@@ -10196,12 +10195,6 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <wire x1="261.62" y1="-134.62" x2="261.62" y2="-144.78" width="0.1524" layer="91"/>
 <label x="289.56" y="-144.78" size="1.778" layer="95" xref="yes"/>
 <junction x="261.62" y="-144.78"/>
-<pinref part="2V5_VOLTAGE_REF" gate="A" pin="GND_SEN"/>
-<wire x1="198.12" y1="-129.54" x2="193.04" y2="-129.54" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="-129.54" x2="193.04" y2="-154.94" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="-154.94" x2="287.02" y2="-154.94" width="0.1524" layer="91"/>
-<wire x1="287.02" y1="-154.94" x2="287.02" y2="-144.78" width="0.1524" layer="91"/>
-<junction x="287.02" y="-144.78"/>
 <wire x1="248.92" y1="-144.78" x2="261.62" y2="-144.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -10486,15 +10479,15 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 </net>
 <net name="VREF_2V5" class="0">
 <segment>
-<pinref part="2V5_VOLTAGE_REF" gate="A" pin="VOUT_SEN"/>
-<wire x1="198.12" y1="-127" x2="193.04" y2="-127" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="-127" x2="193.04" y2="-106.68" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="-106.68" x2="287.02" y2="-106.68" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="-20.32" x2="226.06" y2="-20.32" width="0.1524" layer="91"/>
+<label x="226.06" y="-20.32" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="ADC" gate="A" pin="VREFP"/>
+</segment>
+<segment>
 <pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="281.94" y1="-127" x2="281.94" y2="-116.84" width="0.1524" layer="91"/>
 <junction x="281.94" y="-116.84"/>
-<wire x1="281.94" y1="-116.84" x2="287.02" y2="-116.84" width="0.1524" layer="91"/>
-<wire x1="287.02" y1="-116.84" x2="289.56" y2="-116.84" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="-116.84" x2="289.56" y2="-116.84" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="-116.84" x2="281.94" y2="-116.84" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="271.78" y1="-127" x2="271.78" y2="-116.84" width="0.1524" layer="91"/>
@@ -10502,21 +10495,14 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <wire x1="261.62" y1="-116.84" x2="271.78" y2="-116.84" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="261.62" y1="-127" x2="261.62" y2="-116.84" width="0.1524" layer="91"/>
-<label x="289.56" y="-116.84" size="1.778" layer="95" xref="yes"/>
-<wire x1="287.02" y1="-106.68" x2="287.02" y2="-116.84" width="0.1524" layer="91"/>
-<junction x="287.02" y="-116.84"/>
 <junction x="261.62" y="-116.84"/>
 <pinref part="2V5_VOLTAGE_REF" gate="A" pin="VOUT_FORCE"/>
 <wire x1="243.84" y1="-116.84" x2="248.92" y2="-116.84" width="0.1524" layer="91"/>
-<pinref part="C16" gate="G$1" pin="1"/>
-<wire x1="248.92" y1="-127" x2="248.92" y2="-116.84" width="0.1524" layer="91"/>
 <junction x="248.92" y="-116.84"/>
 <wire x1="248.92" y1="-116.84" x2="261.62" y2="-116.84" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="241.3" y1="-20.32" x2="226.06" y2="-20.32" width="0.1524" layer="91"/>
-<label x="226.06" y="-20.32" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="ADC" gate="A" pin="VREFP"/>
+<pinref part="C16" gate="G$1" pin="1"/>
+<wire x1="248.92" y1="-127" x2="248.92" y2="-116.84" width="0.1524" layer="91"/>
+<label x="289.56" y="-116.84" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="3V3" class="0">
@@ -10757,6 +10743,24 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <pinref part="ICSP" gate="G$1" pin="5"/>
 <wire x1="414.02" y1="-195.58" x2="411.48" y2="-195.58" width="0.1524" layer="91"/>
 <label x="411.48" y="-195.58" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="GND_SENSE" class="0">
+<segment>
+<pinref part="2V5_VOLTAGE_REF" gate="A" pin="GND_SEN"/>
+<wire x1="198.12" y1="-129.54" x2="193.04" y2="-129.54" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="-129.54" x2="193.04" y2="-154.94" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="-154.94" x2="287.02" y2="-154.94" width="0.1524" layer="91"/>
+<label x="287.02" y="-154.94" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="V_SENSE" class="0">
+<segment>
+<pinref part="2V5_VOLTAGE_REF" gate="A" pin="VOUT_SEN"/>
+<wire x1="198.12" y1="-127" x2="193.04" y2="-127" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="-127" x2="193.04" y2="-106.68" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="-106.68" x2="287.02" y2="-106.68" width="0.1524" layer="91"/>
+<label x="287.02" y="-106.68" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
