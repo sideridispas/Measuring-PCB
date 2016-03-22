@@ -10107,9 +10107,9 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="RESET_BUTTON" library="SparkFun-Retired" deviceset="TAC_SWITCH" device="SMD" value="TAC_SWITCHSMD"/>
 <part name="DC-DC" library="Analog Devices_By_element14_Batch_1" deviceset="ADUM5000ARWZ" device=""/>
 <part name="SIGNAL_ISOLATOR" library="MAX14850ASE" deviceset="IC_DIL16" device="-SOIC-16"/>
-<part name="TO_MASTER_BOARD" library="pinhead" deviceset="PINHD-1X8" device="/90"/>
-<part name="C18" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="10u"/>
-<part name="C19" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="0.1u"/>
+<part name="TO_MASTER_BOARD" library="pinhead" deviceset="PINHD-1X8" device=""/>
+<part name="C18" library="adafruit" deviceset="C-US" device="C3216" value="10u"/>
+<part name="C19" library="adafruit" deviceset="C-US" device="C3216" value="0.1u"/>
 <part name="C20" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="10u"/>
 <part name="C21" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="0.1u"/>
 <part name="C22" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="0.1u"/>
@@ -10134,7 +10134,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="C34" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="22p"/>
 <part name="R10" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="4.7k"/>
 <part name="R11" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="10k"/>
-<part name="JP1" library="adafruit" deviceset="PINHD-1X3" device=""/>
+<part name="1WIRE_BUS" library="adafruit" deviceset="PINHD-1X3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10269,7 +10269,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <instance part="C34" gate="G$1" x="149.86" y="-220.98" rot="R180"/>
 <instance part="R10" gate="G$1" x="259.08" y="-233.68" rot="R270"/>
 <instance part="R11" gate="G$1" x="147.32" y="-208.28"/>
-<instance part="JP1" gate="A" x="375.92" y="-193.04"/>
+<instance part="1WIRE_BUS" gate="A" x="375.92" y="-193.04"/>
 </instances>
 <busses>
 </busses>
@@ -10634,10 +10634,10 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <wire x1="391.16" y1="33.02" x2="368.3" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="368.3" y1="33.02" x2="360.68" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="360.68" y1="33.02" x2="355.6" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="360.68" y1="30.48" x2="360.68" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="360.68" y1="27.94" x2="360.68" y2="33.02" width="0.1524" layer="91"/>
 <junction x="360.68" y="33.02"/>
 <pinref part="C19" gate="G$1" pin="1"/>
-<wire x1="368.3" y1="30.48" x2="368.3" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="368.3" y1="27.94" x2="368.3" y2="33.02" width="0.1524" layer="91"/>
 <junction x="368.3" y="33.02"/>
 <label x="355.6" y="33.02" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="DC-DC" gate="A" pin="RCSEL"/>
@@ -10697,10 +10697,8 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <pinref part="DC-DC" gate="A" pin="GND1"/>
 <wire x1="386.08" y1="7.62" x2="393.7" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="C19" gate="G$1" pin="2"/>
-<wire x1="368.3" y1="22.86" x2="368.3" y2="20.32" width="0.1524" layer="91"/>
 <junction x="368.3" y="20.32"/>
 <pinref part="C18" gate="G$1" pin="2"/>
-<wire x1="360.68" y1="22.86" x2="360.68" y2="20.32" width="0.1524" layer="91"/>
 <junction x="360.68" y="20.32"/>
 <label x="355.6" y="20.32" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="DC-DC" gate="A" pin="NC_2"/>
@@ -10898,7 +10896,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <label x="266.7" y="-226.06" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="1"/>
+<pinref part="1WIRE_BUS" gate="A" pin="1"/>
 <wire x1="373.38" y1="-190.5" x2="365.76" y2="-190.5" width="0.1524" layer="91"/>
 <label x="365.76" y="-190.5" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -11139,7 +11137,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <label x="487.68" y="-53.34" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="3"/>
+<pinref part="1WIRE_BUS" gate="A" pin="3"/>
 <wire x1="373.38" y1="-195.58" x2="368.3" y2="-195.58" width="0.1524" layer="91"/>
 <label x="368.3" y="-195.58" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -11500,7 +11498,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <junction x="259.08" y="-241.3"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="2"/>
+<pinref part="1WIRE_BUS" gate="A" pin="2"/>
 <wire x1="373.38" y1="-193.04" x2="353.06" y2="-193.04" width="0.1524" layer="91"/>
 <label x="353.06" y="-193.04" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>

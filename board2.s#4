@@ -9328,9 +9328,9 @@ SMT- SWCH-08247</description>
 <part name="C3" library="adafruit" deviceset="C-US" device="C3216" value="47u"/>
 <part name="C4" library="adafruit" deviceset="C-US" device="C3216" value="0.1u"/>
 <part name="C5" library="adafruit" deviceset="C-US" device="C3216" value="100p"/>
-<part name="R6" library="adafruit" deviceset="R-US_" device="M3216" value="100"/>
-<part name="R7" library="adafruit" deviceset="R-US_" device="M3216" value="100"/>
-<part name="R8" library="adafruit" deviceset="R-US_" device="M3216" value="100"/>
+<part name="R6" library="adafruit" deviceset="R-US_" device="R3216" value="100"/>
+<part name="R7" library="adafruit" deviceset="R-US_" device="R3216" value="100"/>
+<part name="R8" library="adafruit" deviceset="R-US_" device="R3216" value="100"/>
 <part name="C16" library="adafruit" deviceset="C-US" device="C3216" value="0.1u"/>
 <part name="AIN6-7" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 <part name="ADC" library="Texas Instruments_By_element14_Batch_1" deviceset="ADS1256IDBT" device=""/>
@@ -9353,22 +9353,22 @@ SMT- SWCH-08247</description>
 <part name="C25" library="adafruit" deviceset="C-US" device="C3216" value="10u"/>
 <part name="C26" library="adafruit" deviceset="C-US" device="C3216" value="0.1u"/>
 <part name="C27" library="adafruit" deviceset="C-US" device="C3216" value="0.1u"/>
-<part name="R2" library="adafruit" deviceset="R-US_" device="M3216" value="4.7k"/>
-<part name="R3" library="adafruit" deviceset="R-US_" device="M3216" value="4.7k"/>
-<part name="R4" library="adafruit" deviceset="R-US_" device="M3216" value="4.7k"/>
-<part name="R5" library="adafruit" deviceset="R-US_" device="M3216" value="4.7k"/>
+<part name="R2" library="adafruit" deviceset="R-US_" device="R3216" value="4.7k"/>
+<part name="R3" library="adafruit" deviceset="R-US_" device="R3216" value="4.7k"/>
+<part name="R4" library="adafruit" deviceset="R-US_" device="R3216" value="4.7k"/>
+<part name="R5" library="adafruit" deviceset="R-US_" device="R3216" value="4.7k"/>
 <part name="3V3_REGULATOR" library="Texas Instruments_By_element14_Batch_1" deviceset="LP2985-33DBVT" device=""/>
 <part name="C28" library="adafruit" deviceset="C-US" device="C3216" value="1u"/>
 <part name="C29" library="adafruit" deviceset="C-US" device="C3216" value="10n"/>
 <part name="C30" library="adafruit" deviceset="C-US" device="C3216" value="2.2u"/>
 <part name="C31" library="adafruit" deviceset="C-US" device="C3216" value="22p"/>
-<part name="R9" library="adafruit" deviceset="R-US_" device="M3216" value="10k"/>
+<part name="R9" library="adafruit" deviceset="R-US_" device="R3216" value="10k"/>
 <part name="C32" library="adafruit" deviceset="C-US" device="C3216" value="22p"/>
 <part name="C33" library="adafruit" deviceset="C-US" device="C3216" value="22p"/>
 <part name="Q2" library="adafruit" deviceset="CRYSTAL" device="HC49U-V" value="16MHz"/>
 <part name="C34" library="adafruit" deviceset="C-US" device="C3216" value="22p"/>
-<part name="R10" library="adafruit" deviceset="R-US_" device="M3216" value="4.7k"/>
-<part name="R11" library="adafruit" deviceset="R-US_" device="M3216" value="10k"/>
+<part name="R10" library="adafruit" deviceset="R-US_" device="R3216" value="4.7k"/>
+<part name="R11" library="adafruit" deviceset="R-US_" device="R3216" value="10k"/>
 <part name="1WIRE_BUS" library="adafruit" deviceset="PINHD-1X3" device=""/>
 </parts>
 <sheets>
@@ -9973,11 +9973,6 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 </net>
 <net name="SDA" class="0">
 <segment>
-<pinref part="TO_MASTER_BOARD" gate="A" pin="3"/>
-<wire x1="482.6" y1="-185.42" x2="467.36" y2="-185.42" width="0.1524" layer="91"/>
-<label x="467.36" y="-185.42" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="SIGNAL_ISOLATOR" gate="IC" pin="I/OA1"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="370.84" y1="-48.26" x2="403.86" y2="-48.26" width="0.1524" layer="91"/>
@@ -9986,13 +9981,13 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <wire x1="370.84" y1="-66.04" x2="360.68" y2="-66.04" width="0.1524" layer="91"/>
 <label x="360.68" y="-66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="TO_MASTER_BOARD" gate="A" pin="7"/>
+<wire x1="482.6" y1="-195.58" x2="464.82" y2="-195.58" width="0.1524" layer="91"/>
+<label x="464.82" y="-195.58" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="SCL" class="0">
-<segment>
-<pinref part="TO_MASTER_BOARD" gate="A" pin="4"/>
-<wire x1="482.6" y1="-187.96" x2="474.98" y2="-187.96" width="0.1524" layer="91"/>
-<label x="474.98" y="-187.96" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="SIGNAL_ISOLATOR" gate="IC" pin="I/OA2"/>
 <pinref part="R2" gate="G$1" pin="1"/>
@@ -10002,6 +9997,11 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <junction x="363.22" y="-50.8"/>
 <wire x1="363.22" y1="-60.96" x2="360.68" y2="-60.96" width="0.1524" layer="91"/>
 <label x="360.68" y="-60.96" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="TO_MASTER_BOARD" gate="A" pin="8"/>
+<wire x1="482.6" y1="-198.12" x2="474.98" y2="-198.12" width="0.1524" layer="91"/>
+<label x="474.98" y="-198.12" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="5V_ISO" class="0">
@@ -10443,9 +10443,9 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <label x="386.08" y="-40.64" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="TO_MASTER_BOARD" gate="A" pin="6"/>
-<wire x1="482.6" y1="-193.04" x2="474.98" y2="-193.04" width="0.1524" layer="91"/>
-<label x="474.98" y="-193.04" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="TO_MASTER_BOARD" gate="A" pin="4"/>
+<wire x1="482.6" y1="-187.96" x2="474.98" y2="-187.96" width="0.1524" layer="91"/>
+<label x="474.98" y="-187.96" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="IN1" class="0">
@@ -10455,9 +10455,9 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <label x="396.24" y="-38.1" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="TO_MASTER_BOARD" gate="A" pin="5"/>
-<wire x1="482.6" y1="-190.5" x2="467.36" y2="-190.5" width="0.1524" layer="91"/>
-<label x="467.36" y="-190.5" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="TO_MASTER_BOARD" gate="A" pin="3"/>
+<wire x1="482.6" y1="-185.42" x2="467.36" y2="-185.42" width="0.1524" layer="91"/>
+<label x="467.36" y="-185.42" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="OUT1" class="0">
@@ -10467,9 +10467,9 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <label x="396.24" y="-43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="TO_MASTER_BOARD" gate="A" pin="7"/>
-<wire x1="482.6" y1="-195.58" x2="464.82" y2="-195.58" width="0.1524" layer="91"/>
-<label x="464.82" y="-195.58" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="TO_MASTER_BOARD" gate="A" pin="5"/>
+<wire x1="482.6" y1="-190.5" x2="464.82" y2="-190.5" width="0.1524" layer="91"/>
+<label x="464.82" y="-190.5" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="OUT2" class="0">
@@ -10479,9 +10479,9 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <label x="386.08" y="-45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="TO_MASTER_BOARD" gate="A" pin="8"/>
-<wire x1="482.6" y1="-198.12" x2="474.98" y2="-198.12" width="0.1524" layer="91"/>
-<label x="474.98" y="-198.12" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="TO_MASTER_BOARD" gate="A" pin="6"/>
+<wire x1="482.6" y1="-193.04" x2="474.98" y2="-193.04" width="0.1524" layer="91"/>
+<label x="474.98" y="-193.04" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="VREF_2V5" class="0">
