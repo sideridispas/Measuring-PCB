@@ -8882,7 +8882,7 @@ SMT- SWCH-08247</description>
 <smd name="16" x="-4.445" y="2.6" dx="0.6" dy="2.2" layer="1"/>
 <text x="-5.3975" y="-2.54" size="1.27" layer="25" font="vector" ratio="10" rot="R90">
 </text>
-<text x="-4.445" y="-0.635" size="1.27" layer="27" font="vector" ratio="10">
+<text x="-4.445" y="-0.635" size="1.6764" layer="27" font="vector" ratio="10">
 </text>
 <rectangle x1="-4.6901" y1="-3.1001" x2="-4.1999" y2="-2" layer="51"/>
 <rectangle x1="-3.4201" y1="-3.1001" x2="-2.9299" y2="-2" layer="51"/>
@@ -8901,7 +8901,7 @@ SMT- SWCH-08247</description>
 <rectangle x1="-3.4201" y1="2" x2="-2.9299" y2="3.1001" layer="51"/>
 <rectangle x1="-4.6901" y1="2" x2="-4.1999" y2="3.1001" layer="51"/>
 <text x="6.985" y="-3.175" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<circle x="-4.445" y="-0.9525" radius="0.3175" width="0.127" layer="25"/>
+<circle x="-5.435246875" y="-3.62803125" radius="0.254" width="0.127" layer="25"/>
 </package>
 <package name="SOIC-16W">
 <wire x1="5.19" y1="-3.7" x2="-5.19" y2="-3.7" width="0.1524" layer="51"/>
@@ -9986,8 +9986,8 @@ Various common sizes : AA, AAA, 18650 (PRT-12895), 20mm coin cell and 12mm coin 
 <part name="C16" library="adafruit" deviceset="C-US" device="C3216" value="0.1u"/>
 <part name="AIN6-7" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 <part name="ADS1256" library="Texas Instruments_By_element14_Batch_1" deviceset="ADS1256IDBT" device=""/>
-<part name="SJ1" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ2" library="jumper" deviceset="SJ" device=""/>
+<part name="SJ1-RST" library="jumper" deviceset="SJ" device=""/>
+<part name="SJ2-SYNC" library="jumper" deviceset="SJ" device=""/>
 <part name="ATMEGA328" library="SparkFun-DigitalIC" deviceset="ATMEGA328P_TQFP" device="" value="ATMEGA328P_TQFP"/>
 <part name="DS3234" library="SparkFun-FreqCtrl" deviceset="DS3234" device=""/>
 <part name="ICSP" library="SparkFun-Connectors" deviceset="M03X2" device="FEMALE" value="FEMALE 2x3"/>
@@ -10060,7 +10060,7 @@ Various common sizes : AA, AAA, 18650 (PRT-12895), 20mm coin cell and 12mm coin 
 <text x="-5.08" y="-91.44" size="5.08" layer="98">Real Time Clock</text>
 <text x="-5.08" y="-175.26" size="5.08" layer="98">Standalone Arduino (atmega328)</text>
 <text x="327.66" y="-175.26" size="5.08" layer="98">Connectors</text>
-<text x="406.4" y="-228.6" size="6.4516" layer="98">Measuring PCB v2.0</text>
+<text x="406.4" y="-228.6" size="6.4516" layer="98">Measuring PCB v2.2</text>
 <wire x1="370.84" y1="-281.94" x2="370.84" y2="-248.92" width="0.1524" layer="98"/>
 <wire x1="370.84" y1="-248.92" x2="370.84" y2="-233.68" width="0.1524" layer="98"/>
 <wire x1="370.84" y1="-233.68" x2="370.84" y2="-215.9" width="0.1524" layer="98"/>
@@ -10123,8 +10123,8 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <instance part="C16" gate="G$1" x="248.92" y="-129.54"/>
 <instance part="AIN6-7" gate="G$1" x="198.12" y="-53.34"/>
 <instance part="ADS1256" gate="A" x="261.62" y="-25.4"/>
-<instance part="SJ1" gate="1" x="200.66" y="-22.86"/>
-<instance part="SJ2" gate="1" x="205.74" y="-27.94"/>
+<instance part="SJ1-RST" gate="1" x="200.66" y="-22.86"/>
+<instance part="SJ2-SYNC" gate="1" x="205.74" y="-27.94"/>
 <instance part="ATMEGA328" gate="U$1" x="187.96" y="-238.76"/>
 <instance part="DS3234" gate="G$1" x="101.6" y="-132.08"/>
 <instance part="ICSP" gate="G$1" x="411.48" y="-187.96"/>
@@ -11217,10 +11217,10 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <segment>
 <wire x1="193.04" y1="-25.4" x2="190.5" y2="-25.4" width="0.1524" layer="91"/>
 <label x="190.5" y="-25.4" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="SJ1" gate="1" pin="1"/>
+<pinref part="SJ1-RST" gate="1" pin="1"/>
 <wire x1="193.04" y1="-25.4" x2="193.04" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="-22.86" x2="195.58" y2="-22.86" width="0.1524" layer="91"/>
-<pinref part="SJ2" gate="1" pin="1"/>
+<pinref part="SJ2-SYNC" gate="1" pin="1"/>
 <wire x1="193.04" y1="-25.4" x2="193.04" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="-27.94" x2="200.66" y2="-27.94" width="0.1524" layer="91"/>
 <junction x="193.04" y="-25.4"/>
@@ -11355,14 +11355,14 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="SJ1" gate="1" pin="2"/>
+<pinref part="SJ1-RST" gate="1" pin="2"/>
 <pinref part="ADS1256" gate="A" pin="~RESET"/>
 <wire x1="205.74" y1="-22.86" x2="241.3" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
-<pinref part="SJ2" gate="1" pin="2"/>
+<pinref part="SJ2-SYNC" gate="1" pin="2"/>
 <pinref part="ADS1256" gate="A" pin="~SYNC,_~PDWN"/>
 <wire x1="210.82" y1="-27.94" x2="241.3" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
