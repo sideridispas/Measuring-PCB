@@ -5641,49 +5641,6 @@ Source: 008-0260-0_E.pdf</description>
 <text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="1X03">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<wire x1="-3.175" y1="1.27" x2="-1.905" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="1.27" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-0.635" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="0.635" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="-1.27" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="0.635" x2="-3.81" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="1.27" x2="-3.81" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="-0.635" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="-1.27" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
-<pad name="1" x="-2.54" y="0" drill="1.016" rot="R90"/>
-<pad name="2" x="0" y="0" drill="1.016" rot="R90"/>
-<pad name="3" x="2.54" y="0" drill="1.016" rot="R90"/>
-<text x="-3.8862" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.81" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-<rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
-<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
-</package>
-<package name="1X03-CLEANBIG">
-<pad name="1" x="-2.54" y="0" drill="1.016" diameter="1.6764" rot="R90"/>
-<pad name="2" x="0" y="0" drill="1.016" diameter="1.6764" rot="R90"/>
-<pad name="3" x="2.54" y="0" drill="1.016" diameter="1.6764" rot="R90"/>
-<text x="-3.8862" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.81" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-<rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
-<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
-</package>
 <package name="2X04">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <wire x1="-5.08" y1="-1.905" x2="-4.445" y2="-2.54" width="0.1524" layer="21"/>
@@ -5822,17 +5779,6 @@ Source: 008-0260-0_E.pdf</description>
 <text x="1.524" y="-1.143" size="0.8636" layer="93">2</text>
 <pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
-</symbol>
-<symbol name="PINHD3">
-<wire x1="-6.35" y1="-5.08" x2="1.27" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="-5.08" x2="1.27" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="5.08" x2="-6.35" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="-6.35" y1="5.08" x2="-6.35" y2="-5.08" width="0.4064" layer="94"/>
-<text x="-6.35" y="5.715" size="1.778" layer="95">&gt;NAME</text>
-<text x="-6.35" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="2" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="3" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
 </symbol>
 <symbol name="PINH2X4">
 <wire x1="-6.35" y1="-5.08" x2="8.89" y2="-5.08" width="0.4064" layer="94"/>
@@ -7484,34 +7430,6 @@ Source: 008-0260-0_E.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PINHD-1X3" prefix="JP" uservalue="yes">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<gates>
-<gate name="A" symbol="PINHD3" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="1X03">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-<connect gate="A" pin="3" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="CB" package="1X03-CLEANBIG">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-<connect gate="A" pin="3" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="PINHD-2X4" prefix="JP" uservalue="yes">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <gates>
@@ -8943,12 +8861,9 @@ SMT- SWCH-08247</description>
 </package>
 <package name="SOIC-16">
 <wire x1="4.94" y1="-1.9" x2="-4.94" y2="-1.9" width="0.1524" layer="51"/>
-<wire x1="-4.94" y1="-1.9" x2="-4.94" y2="-1.4" width="0.1524" layer="51"/>
-<wire x1="-4.94" y1="-1.4" x2="-4.94" y2="1.9" width="0.1524" layer="51"/>
+<wire x1="-4.94" y1="-1.9" x2="-4.94" y2="1.9" width="0.1524" layer="51"/>
 <wire x1="-4.94" y1="1.9" x2="4.94" y2="1.9" width="0.1524" layer="51"/>
-<wire x1="4.94" y1="-1.4" x2="-4.94" y2="-1.4" width="0.1524" layer="51"/>
-<wire x1="4.94" y1="1.9" x2="4.94" y2="-1.4" width="0.1524" layer="51"/>
-<wire x1="4.94" y1="-1.4" x2="4.94" y2="-1.9" width="0.1524" layer="51"/>
+<wire x1="4.94" y1="1.9" x2="4.94" y2="-1.9" width="0.1524" layer="51"/>
 <smd name="2" x="-3.175" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
 <smd name="13" x="-0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
 <smd name="1" x="-4.445" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
@@ -8985,6 +8900,8 @@ SMT- SWCH-08247</description>
 <rectangle x1="2.9299" y1="2" x2="3.4201" y2="3.1001" layer="51"/>
 <rectangle x1="-3.4201" y1="2" x2="-2.9299" y2="3.1001" layer="51"/>
 <rectangle x1="-4.6901" y1="2" x2="-4.1999" y2="3.1001" layer="51"/>
+<text x="6.985" y="-3.175" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<circle x="-4.445" y="-0.9525" radius="0.3175" width="0.127" layer="25"/>
 </package>
 <package name="SOIC-16W">
 <wire x1="5.19" y1="-3.7" x2="-5.19" y2="-3.7" width="0.1524" layer="51"/>
@@ -9968,6 +9885,59 @@ Various common sizes : AA, AAA, 18650 (PRT-12895), 20mm coin cell and 12mm coin 
 </deviceset>
 </devicesets>
 </library>
+<library name="Paschalis_connectors">
+<packages>
+<package name="PHOENIX-TERMINAL-3PIN">
+<pad name="1" x="-2.54" y="0" drill="1.1" diameter="1.9304"/>
+<pad name="2" x="0" y="0" drill="1.1" diameter="1.9304"/>
+<pad name="3" x="2.54" y="0" drill="1.1" diameter="1.9304"/>
+<hole x="-2.54" y="-2.54" drill="1.1"/>
+<hole x="0" y="-2.54" drill="1.1"/>
+<hole x="2.54" y="-2.54" drill="1.1"/>
+<wire x1="-4.04" y1="3.1" x2="4.04" y2="3.1" width="0.127" layer="21"/>
+<wire x1="-4.04" y1="3.1" x2="-4.04" y2="-3.54" width="0.127" layer="21"/>
+<wire x1="4.04" y1="3.1" x2="4.04" y2="-3.54" width="0.127" layer="21"/>
+<wire x1="-4.04" y1="-3.54" x2="4.04" y2="-3.54" width="0.127" layer="21"/>
+<text x="-3.58" y="4.08" size="1.27" layer="25">&gt;NAME</text>
+<text x="6.58" y="-3.54" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="PHOENIX-TERMINAL-3PIN">
+<description>&lt;b&gt;PHOENIX Terminal Block&lt;/b&gt;
+&lt;p&gt;Wire to PCB Connector - 3 Pins&lt;/p&gt;
+&lt;p&gt;2.54mm pitch&lt;/p&gt;</description>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<pin name="1" x="-7.62" y="2.54" visible="pad" length="middle"/>
+<pin name="2" x="-7.62" y="0" visible="pad" length="middle"/>
+<pin name="3" x="-7.62" y="-2.54" visible="pad" length="middle"/>
+<text x="-1.92" y="5.92" size="1.27" layer="95">&gt;NAME</text>
+<text x="-1.92" y="-7" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PHOENIX-TERMINAL-3PIN">
+<gates>
+<gate name="G$1" symbol="PHOENIX-TERMINAL-3PIN" x="2.54" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="PHOENIX-TERMINAL-3PIN">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -10005,7 +9975,7 @@ Various common sizes : AA, AAA, 18650 (PRT-12895), 20mm coin cell and 12mm coin 
 <part name="Q1" library="adafruit" deviceset="CRYSTAL" device="HC49U-V" value="7.68M"/>
 <part name="C8" library="adafruit" deviceset="C-US" device="C3216" value="18p"/>
 <part name="C9" library="adafruit" deviceset="C-US" device="C3216" value="18p"/>
-<part name="2V5_VOLTAGE_REF" library="Analog Devices_By_element14_Batch_1" deviceset="ADR3425ARJZ-R7" device=""/>
+<part name="ADR3425" library="Analog Devices_By_element14_Batch_1" deviceset="ADR3425ARJZ-R7" device=""/>
 <part name="C17" library="adafruit" deviceset="C-US" device="C3216" value="0.1u"/>
 <part name="C3" library="adafruit" deviceset="C-US" device="C3216" value="47u"/>
 <part name="C4" library="adafruit" deviceset="C-US" device="C3216" value="0.1u"/>
@@ -10015,15 +9985,15 @@ Various common sizes : AA, AAA, 18650 (PRT-12895), 20mm coin cell and 12mm coin 
 <part name="R8" library="adafruit" deviceset="R-US_" device="R3216" value="100"/>
 <part name="C16" library="adafruit" deviceset="C-US" device="C3216" value="0.1u"/>
 <part name="AIN6-7" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
-<part name="ADC" library="Texas Instruments_By_element14_Batch_1" deviceset="ADS1256IDBT" device=""/>
-<part name="SJ1" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ2" library="jumper" deviceset="SJ" device=""/>
+<part name="ADS1256" library="Texas Instruments_By_element14_Batch_1" deviceset="ADS1256IDBT" device=""/>
+<part name="SJ1-RST" library="jumper" deviceset="SJ" device=""/>
+<part name="SJ2-SYNC" library="jumper" deviceset="SJ" device=""/>
 <part name="ATMEGA328" library="SparkFun-DigitalIC" deviceset="ATMEGA328P_TQFP" device="" value="ATMEGA328P_TQFP"/>
-<part name="RTC" library="SparkFun-FreqCtrl" deviceset="DS3234" device=""/>
+<part name="DS3234" library="SparkFun-FreqCtrl" deviceset="DS3234" device=""/>
 <part name="ICSP" library="SparkFun-Connectors" deviceset="M03X2" device="FEMALE" value="FEMALE 2x3"/>
-<part name="RESET_BUTTON" library="SparkFun-Retired" deviceset="TAC_SWITCH" device="SMD" value="TAC_SWITCHSMD"/>
-<part name="DC-DC" library="Analog Devices_By_element14_Batch_1" deviceset="ADUM5000ARWZ" device=""/>
-<part name="SIGNAL_ISOLATOR" library="MAX14850ASE" deviceset="IC_DIL16" device="-SOIC-16"/>
+<part name="RESET" library="SparkFun-Retired" deviceset="TAC_SWITCH" device="SMD" value="TAC_SWITCHSMD"/>
+<part name="ADUM5000" library="Analog Devices_By_element14_Batch_1" deviceset="ADUM5000ARWZ" device=""/>
+<part name="MAX14850" library="MAX14850ASE" deviceset="IC_DIL16" device="-SOIC-16"/>
 <part name="ISOLATED_CON" library="adafruit" deviceset="PINHD-2X4" device=""/>
 <part name="C18" library="adafruit" deviceset="C-US" device="C3216" value="10u"/>
 <part name="C19" library="adafruit" deviceset="C-US" device="C3216" value="0.1u"/>
@@ -10039,7 +10009,7 @@ Various common sizes : AA, AAA, 18650 (PRT-12895), 20mm coin cell and 12mm coin 
 <part name="R3" library="adafruit" deviceset="R-US_" device="R3216" value="4.7k"/>
 <part name="R4" library="adafruit" deviceset="R-US_" device="R3216" value="4.7k"/>
 <part name="R5" library="adafruit" deviceset="R-US_" device="R3216" value="4.7k"/>
-<part name="3V3_REGULATOR" library="Texas Instruments_By_element14_Batch_1" deviceset="LP2985-33DBVT" device=""/>
+<part name="LP2985" library="Texas Instruments_By_element14_Batch_1" deviceset="LP2985-33DBVT" device=""/>
 <part name="C28" library="adafruit" deviceset="C-US" device="C3216" value="1u"/>
 <part name="C29" library="adafruit" deviceset="C-US" device="C3216" value="10n"/>
 <part name="C30" library="adafruit" deviceset="C-US" device="C3216" value="2.2u"/>
@@ -10051,9 +10021,9 @@ Various common sizes : AA, AAA, 18650 (PRT-12895), 20mm coin cell and 12mm coin 
 <part name="C34" library="adafruit" deviceset="C-US" device="C3216" value="22p"/>
 <part name="R10" library="adafruit" deviceset="R-US_" device="R3216" value="4.7k"/>
 <part name="R11" library="adafruit" deviceset="R-US_" device="R3216" value="10k"/>
-<part name="1WIRE_BUS" library="adafruit" deviceset="PINHD-1X3" device=""/>
 <part name="BAT1" library="SparkFun-Electromechanical" deviceset="BATTERY" device="12MM" value="3V"/>
 <part name="NON-ISOLATED_CON" library="adafruit" deviceset="PINHD-2X4" device=""/>
+<part name="1WIRE-BUS" library="Paschalis_connectors" deviceset="PHOENIX-TERMINAL-3PIN" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10090,7 +10060,7 @@ Various common sizes : AA, AAA, 18650 (PRT-12895), 20mm coin cell and 12mm coin 
 <text x="-5.08" y="-91.44" size="5.08" layer="98">Real Time Clock</text>
 <text x="-5.08" y="-175.26" size="5.08" layer="98">Standalone Arduino (atmega328)</text>
 <text x="327.66" y="-175.26" size="5.08" layer="98">Connectors</text>
-<text x="406.4" y="-228.6" size="6.4516" layer="98">Measuring PCB v2.0</text>
+<text x="406.4" y="-228.6" size="6.4516" layer="98">Measuring PCB v2.2</text>
 <wire x1="370.84" y1="-281.94" x2="370.84" y2="-248.92" width="0.1524" layer="98"/>
 <wire x1="370.84" y1="-248.92" x2="370.84" y2="-233.68" width="0.1524" layer="98"/>
 <wire x1="370.84" y1="-233.68" x2="370.84" y2="-215.9" width="0.1524" layer="98"/>
@@ -10142,7 +10112,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <instance part="Q1" gate="G$1" x="180.34" y="-15.24" rot="R270"/>
 <instance part="C8" gate="G$1" x="172.72" y="-10.16" rot="R270"/>
 <instance part="C9" gate="G$1" x="172.72" y="-20.32" rot="R270"/>
-<instance part="2V5_VOLTAGE_REF" gate="A" x="220.98" y="-121.92"/>
+<instance part="ADR3425" gate="A" x="220.98" y="-121.92"/>
 <instance part="C17" gate="G$1" x="180.34" y="-129.54"/>
 <instance part="C3" gate="G$1" x="261.62" y="-129.54"/>
 <instance part="C4" gate="G$1" x="271.78" y="-129.54"/>
@@ -10152,15 +10122,15 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <instance part="R8" gate="G$1" x="233.68" y="-25.4" rot="R180"/>
 <instance part="C16" gate="G$1" x="248.92" y="-129.54"/>
 <instance part="AIN6-7" gate="G$1" x="198.12" y="-53.34"/>
-<instance part="ADC" gate="A" x="261.62" y="-25.4"/>
-<instance part="SJ1" gate="1" x="200.66" y="-22.86"/>
-<instance part="SJ2" gate="1" x="205.74" y="-27.94"/>
+<instance part="ADS1256" gate="A" x="261.62" y="-25.4"/>
+<instance part="SJ1-RST" gate="1" x="200.66" y="-22.86"/>
+<instance part="SJ2-SYNC" gate="1" x="205.74" y="-27.94"/>
 <instance part="ATMEGA328" gate="U$1" x="187.96" y="-238.76"/>
-<instance part="RTC" gate="G$1" x="101.6" y="-132.08"/>
-<instance part="ICSP" gate="G$1" x="403.86" y="-195.58"/>
-<instance part="RESET_BUTTON" gate="S" x="149.86" y="-193.04"/>
-<instance part="DC-DC" gate="A" x="411.48" y="22.86"/>
-<instance part="SIGNAL_ISOLATOR" gate="IC" x="411.48" y="-43.18"/>
+<instance part="DS3234" gate="G$1" x="101.6" y="-132.08"/>
+<instance part="ICSP" gate="G$1" x="411.48" y="-187.96"/>
+<instance part="RESET" gate="S" x="149.86" y="-193.04"/>
+<instance part="ADUM5000" gate="A" x="411.48" y="22.86"/>
+<instance part="MAX14850" gate="IC" x="411.48" y="-43.18"/>
 <instance part="ISOLATED_CON" gate="A" x="467.36" y="-180.34"/>
 <instance part="C18" gate="G$1" x="360.68" y="25.4"/>
 <instance part="C19" gate="G$1" x="368.3" y="25.4"/>
@@ -10176,7 +10146,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <instance part="R3" gate="G$1" x="370.84" y="-43.18" rot="R90"/>
 <instance part="R4" gate="G$1" x="464.82" y="-43.18" rot="R90"/>
 <instance part="R5" gate="G$1" x="472.44" y="-43.18" rot="R90"/>
-<instance part="3V3_REGULATOR" gate="A" x="424.18" y="-132.08"/>
+<instance part="LP2985" gate="A" x="424.18" y="-132.08"/>
 <instance part="C28" gate="G$1" x="363.22" y="-137.16"/>
 <instance part="C29" gate="G$1" x="383.54" y="-137.16"/>
 <instance part="C30" gate="G$1" x="457.2" y="-137.16"/>
@@ -10188,9 +10158,9 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <instance part="C34" gate="G$1" x="149.86" y="-220.98" rot="R180"/>
 <instance part="R10" gate="G$1" x="259.08" y="-233.68" rot="R270"/>
 <instance part="R11" gate="G$1" x="147.32" y="-208.28"/>
-<instance part="1WIRE_BUS" gate="A" x="363.22" y="-193.04"/>
 <instance part="BAT1" gate="G$1" x="127" y="-119.38"/>
 <instance part="NON-ISOLATED_CON" gate="A" x="467.36" y="-203.2"/>
+<instance part="1WIRE-BUS" gate="G$1" x="365.76" y="-193.04"/>
 </instances>
 <busses>
 </busses>
@@ -10271,7 +10241,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <segment>
 <wire x1="241.3" y1="-45.72" x2="228.6" y2="-45.72" width="0.1524" layer="91"/>
 <label x="228.6" y="-45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="ADC" gate="A" pin="AIN4"/>
+<pinref part="ADS1256" gate="A" pin="AIN4"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -10331,7 +10301,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <segment>
 <wire x1="241.3" y1="-40.64" x2="228.6" y2="-40.64" width="0.1524" layer="91"/>
 <label x="228.6" y="-40.64" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="ADC" gate="A" pin="AIN2"/>
+<pinref part="ADS1256" gate="A" pin="AIN2"/>
 </segment>
 </net>
 <net name="AIN3" class="0">
@@ -10361,7 +10331,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <segment>
 <wire x1="241.3" y1="-43.18" x2="218.44" y2="-43.18" width="0.1524" layer="91"/>
 <label x="218.44" y="-43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="ADC" gate="A" pin="AIN3"/>
+<pinref part="ADS1256" gate="A" pin="AIN3"/>
 </segment>
 </net>
 <net name="AIN5" class="0">
@@ -10391,7 +10361,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <segment>
 <wire x1="241.3" y1="-48.26" x2="218.44" y2="-48.26" width="0.1524" layer="91"/>
 <label x="218.44" y="-48.26" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="ADC" gate="A" pin="AIN5"/>
+<pinref part="ADS1256" gate="A" pin="AIN5"/>
 </segment>
 </net>
 <net name="VBUS2" class="0">
@@ -10413,7 +10383,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <segment>
 <wire x1="241.3" y1="-38.1" x2="218.44" y2="-38.1" width="0.1524" layer="91"/>
 <label x="218.44" y="-38.1" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="ADC" gate="A" pin="AIN1"/>
+<pinref part="ADS1256" gate="A" pin="AIN1"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="4"/>
@@ -10434,7 +10404,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <segment>
 <wire x1="241.3" y1="-35.56" x2="228.6" y2="-35.56" width="0.1524" layer="91"/>
 <label x="228.6" y="-35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="ADC" gate="A" pin="AIN0"/>
+<pinref part="ADS1256" gate="A" pin="AIN0"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
@@ -10473,7 +10443,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <wire x1="190.5" y1="-10.16" x2="190.5" y2="-12.7" width="0.1524" layer="91"/>
 <junction x="180.34" y="-10.16"/>
 <wire x1="190.5" y1="-12.7" x2="241.3" y2="-12.7" width="0.1524" layer="91"/>
-<pinref part="ADC" gate="A" pin="XTAL1/CLKIN"/>
+<pinref part="ADS1256" gate="A" pin="XTAL1/CLKIN"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -10486,7 +10456,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <wire x1="190.5" y1="-15.24" x2="190.5" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="-20.32" x2="180.34" y2="-20.32" width="0.1524" layer="91"/>
 <junction x="180.34" y="-20.32"/>
-<pinref part="ADC" gate="A" pin="XTAL2"/>
+<pinref part="ADS1256" gate="A" pin="XTAL2"/>
 </segment>
 </net>
 <net name="SCLK" class="0">
@@ -10496,9 +10466,9 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <label x="218.44" y="-10.16" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RTC" gate="G$1" pin="SCLK@18"/>
+<pinref part="DS3234" gate="G$1" pin="SCLK@18"/>
 <wire x1="86.36" y1="-124.46" x2="83.82" y2="-124.46" width="0.1524" layer="91"/>
-<pinref part="RTC" gate="G$1" pin="SCLK@20"/>
+<pinref part="DS3234" gate="G$1" pin="SCLK@20"/>
 <wire x1="83.82" y1="-124.46" x2="73.66" y2="-124.46" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="-127" x2="83.82" y2="-127" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="-127" x2="83.82" y2="-124.46" width="0.1524" layer="91"/>
@@ -10512,15 +10482,15 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 </segment>
 <segment>
 <pinref part="ICSP" gate="G$1" pin="3"/>
-<wire x1="396.24" y1="-195.58" x2="383.54" y2="-195.58" width="0.1524" layer="91"/>
-<label x="383.54" y="-195.58" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="403.86" y1="-187.96" x2="391.16" y2="-187.96" width="0.1524" layer="91"/>
+<label x="391.16" y="-187.96" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ADC_DRDY" class="0">
 <segment>
 <wire x1="281.94" y1="-5.08" x2="284.48" y2="-5.08" width="0.1524" layer="91"/>
 <label x="284.48" y="-5.08" size="1.778" layer="95" xref="yes"/>
-<pinref part="ADC" gate="A" pin="~DRDY"/>
+<pinref part="ADS1256" gate="A" pin="~DRDY"/>
 </segment>
 <segment>
 <pinref part="ATMEGA328" gate="U$1" pin="PD2(INT0)"/>
@@ -10532,14 +10502,14 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <segment>
 <pinref part="AIN6-7" gate="G$1" pin="2"/>
 <wire x1="205.74" y1="-50.8" x2="241.3" y2="-50.8" width="0.1524" layer="91"/>
-<pinref part="ADC" gate="A" pin="AIN6"/>
+<pinref part="ADS1256" gate="A" pin="AIN6"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
 <pinref part="AIN6-7" gate="G$1" pin="1"/>
 <wire x1="241.3" y1="-53.34" x2="205.74" y2="-53.34" width="0.1524" layer="91"/>
-<pinref part="ADC" gate="A" pin="AIN7"/>
+<pinref part="ADS1256" gate="A" pin="AIN7"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -10549,7 +10519,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <label x="452.12" y="-175.26" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="DC-DC" gate="A" pin="VDD1_2"/>
+<pinref part="ADUM5000" gate="A" pin="VDD1_2"/>
 <wire x1="393.7" y1="33.02" x2="391.16" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="C18" gate="G$1" pin="1"/>
 <wire x1="391.16" y1="33.02" x2="368.3" y2="33.02" width="0.1524" layer="91"/>
@@ -10561,7 +10531,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <wire x1="368.3" y1="27.94" x2="368.3" y2="33.02" width="0.1524" layer="91"/>
 <junction x="368.3" y="33.02"/>
 <label x="355.6" y="33.02" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="DC-DC" gate="A" pin="RCSEL"/>
+<pinref part="ADUM5000" gate="A" pin="RCSEL"/>
 <wire x1="393.7" y1="22.86" x2="391.16" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="391.16" y1="22.86" x2="391.16" y2="33.02" width="0.1524" layer="91"/>
 <junction x="391.16" y="33.02"/>
@@ -10571,7 +10541,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <wire x1="360.68" y1="15.24" x2="368.3" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="368.3" y1="15.24" x2="381" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="381" y1="15.24" x2="381" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="DC-DC" gate="A" pin="VDD1"/>
+<pinref part="ADUM5000" gate="A" pin="VDD1"/>
 <wire x1="381" y1="30.48" x2="393.7" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="C20" gate="G$1" pin="1"/>
 <wire x1="360.68" y1="10.16" x2="360.68" y2="15.24" width="0.1524" layer="91"/>
@@ -10582,7 +10552,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <label x="355.6" y="15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SIGNAL_ISOLATOR" gate="IC" pin="VCCA"/>
+<pinref part="MAX14850" gate="IC" pin="VCCA"/>
 <wire x1="403.86" y1="-35.56" x2="370.84" y2="-35.56" width="0.1524" layer="91"/>
 <pinref part="C26" gate="G$1" pin="1"/>
 <wire x1="370.84" y1="-35.56" x2="363.22" y2="-35.56" width="0.1524" layer="91"/>
@@ -10600,8 +10570,8 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 </segment>
 <segment>
 <pinref part="ICSP" gate="G$1" pin="2"/>
-<wire x1="411.48" y1="-193.04" x2="414.02" y2="-193.04" width="0.1524" layer="91"/>
-<label x="414.02" y="-193.04" size="1.778" layer="95" xref="yes"/>
+<wire x1="419.1" y1="-185.42" x2="421.64" y2="-185.42" width="0.1524" layer="91"/>
+<label x="421.64" y="-185.42" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -10615,14 +10585,14 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <wire x1="360.68" y1="20.32" x2="368.3" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="368.3" y1="20.32" x2="386.08" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="386.08" y1="20.32" x2="386.08" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="DC-DC" gate="A" pin="GND1"/>
+<pinref part="ADUM5000" gate="A" pin="GND1"/>
 <wire x1="386.08" y1="7.62" x2="393.7" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="C19" gate="G$1" pin="2"/>
 <junction x="368.3" y="20.32"/>
 <pinref part="C18" gate="G$1" pin="2"/>
 <junction x="360.68" y="20.32"/>
 <label x="355.6" y="20.32" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="DC-DC" gate="A" pin="NC_2"/>
+<pinref part="ADUM5000" gate="A" pin="NC_2"/>
 <wire x1="429.26" y1="20.32" x2="434.34" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="434.34" y1="20.32" x2="434.34" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="434.34" y1="-2.54" x2="386.08" y2="-2.54" width="0.1524" layer="91"/>
@@ -10634,7 +10604,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <wire x1="360.68" y1="2.54" x2="368.3" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="368.3" y1="2.54" x2="381" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="381" y1="2.54" x2="381" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="DC-DC" gate="A" pin="GND1_2"/>
+<pinref part="ADUM5000" gate="A" pin="GND1_2"/>
 <wire x1="381" y1="10.16" x2="393.7" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="C21" gate="G$1" pin="2"/>
 <junction x="368.3" y="2.54"/>
@@ -10643,7 +10613,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <label x="355.6" y="2.54" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SIGNAL_ISOLATOR" gate="IC" pin="GNDA"/>
+<pinref part="MAX14850" gate="IC" pin="GNDA"/>
 <wire x1="403.86" y1="-53.34" x2="350.52" y2="-53.34" width="0.1524" layer="91"/>
 <pinref part="C26" gate="G$1" pin="2"/>
 <wire x1="350.52" y1="-53.34" x2="342.9" y2="-53.34" width="0.1524" layer="91"/>
@@ -10653,13 +10623,13 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 </segment>
 <segment>
 <pinref part="ICSP" gate="G$1" pin="6"/>
-<wire x1="411.48" y1="-198.12" x2="414.02" y2="-198.12" width="0.1524" layer="91"/>
-<label x="414.02" y="-198.12" size="1.778" layer="95" xref="yes"/>
+<wire x1="419.1" y1="-190.5" x2="421.64" y2="-190.5" width="0.1524" layer="91"/>
+<label x="421.64" y="-190.5" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SDA" class="0">
 <segment>
-<pinref part="SIGNAL_ISOLATOR" gate="IC" pin="I/OA1"/>
+<pinref part="MAX14850" gate="IC" pin="I/OA1"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="370.84" y1="-48.26" x2="403.86" y2="-48.26" width="0.1524" layer="91"/>
 <junction x="370.84" y="-48.26"/>
@@ -10675,7 +10645,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 </net>
 <net name="SCL" class="0">
 <segment>
-<pinref part="SIGNAL_ISOLATOR" gate="IC" pin="I/OA2"/>
+<pinref part="MAX14850" gate="IC" pin="I/OA2"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="363.22" y1="-48.26" x2="363.22" y2="-50.8" width="0.1524" layer="91"/>
 <wire x1="363.22" y1="-50.8" x2="403.86" y2="-50.8" width="0.1524" layer="91"/>
@@ -10692,7 +10662,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 </net>
 <net name="5V_ISO" class="0">
 <segment>
-<pinref part="DC-DC" gate="A" pin="VISO"/>
+<pinref part="ADUM5000" gate="A" pin="VISO"/>
 <wire x1="429.26" y1="30.48" x2="444.5" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="C23" gate="G$1" pin="1"/>
 <wire x1="444.5" y1="30.48" x2="452.12" y2="30.48" width="0.1524" layer="91"/>
@@ -10704,7 +10674,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <wire x1="444.5" y1="25.4" x2="444.5" y2="30.48" width="0.1524" layer="91"/>
 <junction x="444.5" y="30.48"/>
 <label x="467.36" y="30.48" size="1.778" layer="95" xref="yes"/>
-<pinref part="DC-DC" gate="A" pin="VSEL"/>
+<pinref part="ADUM5000" gate="A" pin="VSEL"/>
 <wire x1="393.7" y1="20.32" x2="388.62" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="388.62" y1="20.32" x2="388.62" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="388.62" y1="45.72" x2="457.2" y2="45.72" width="0.1524" layer="91"/>
@@ -10712,7 +10682,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <junction x="457.2" y="30.48"/>
 </segment>
 <segment>
-<pinref part="DC-DC" gate="A" pin="VISO_2"/>
+<pinref part="ADUM5000" gate="A" pin="VISO_2"/>
 <wire x1="429.26" y1="33.02" x2="436.88" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="436.88" y1="33.02" x2="436.88" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="436.88" y1="5.08" x2="444.5" y2="5.08" width="0.1524" layer="91"/>
@@ -10727,7 +10697,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <label x="467.36" y="5.08" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SIGNAL_ISOLATOR" gate="IC" pin="VCCB"/>
+<pinref part="MAX14850" gate="IC" pin="VCCB"/>
 <wire x1="419.1" y1="-35.56" x2="464.82" y2="-35.56" width="0.1524" layer="91"/>
 <pinref part="C27" gate="G$1" pin="1"/>
 <wire x1="464.82" y1="-35.56" x2="472.44" y2="-35.56" width="0.1524" layer="91"/>
@@ -10744,14 +10714,14 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <junction x="472.44" y="-35.56"/>
 </segment>
 <segment>
-<pinref part="2V5_VOLTAGE_REF" gate="A" pin="VIN"/>
+<pinref part="ADR3425" gate="A" pin="VIN"/>
 <wire x1="198.12" y1="-116.84" x2="195.58" y2="-116.84" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="-116.84" x2="180.34" y2="-116.84" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="-116.84" x2="165.1" y2="-116.84" width="0.1524" layer="91"/>
 <pinref part="C17" gate="G$1" pin="1"/>
 <wire x1="180.34" y1="-127" x2="180.34" y2="-116.84" width="0.1524" layer="91"/>
 <junction x="180.34" y="-116.84"/>
-<pinref part="2V5_VOLTAGE_REF" gate="A" pin="EN"/>
+<pinref part="ADR3425" gate="A" pin="EN"/>
 <wire x1="198.12" y1="-121.92" x2="195.58" y2="-121.92" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="-121.92" x2="195.58" y2="-116.84" width="0.1524" layer="91"/>
 <junction x="195.58" y="-116.84"/>
@@ -10770,12 +10740,12 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <wire x1="208.28" y1="25.4" x2="208.28" y2="27.94" width="0.1524" layer="91"/>
 <junction x="208.28" y="27.94"/>
 <label x="190.5" y="27.94" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="ADC" gate="A" pin="AVDD"/>
+<pinref part="ADS1256" gate="A" pin="AVDD"/>
 </segment>
 <segment>
-<pinref part="3V3_REGULATOR" gate="A" pin="VIN"/>
+<pinref part="LP2985" gate="A" pin="VIN"/>
 <wire x1="406.4" y1="-127" x2="401.32" y2="-127" width="0.1524" layer="91"/>
-<pinref part="3V3_REGULATOR" gate="A" pin="ON/_~OFF"/>
+<pinref part="LP2985" gate="A" pin="ON/_~OFF"/>
 <wire x1="401.32" y1="-127" x2="363.22" y2="-127" width="0.1524" layer="91"/>
 <wire x1="363.22" y1="-127" x2="350.52" y2="-127" width="0.1524" layer="91"/>
 <wire x1="406.4" y1="-132.08" x2="401.32" y2="-132.08" width="0.1524" layer="91"/>
@@ -10814,9 +10784,9 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <label x="266.7" y="-226.06" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="1WIRE_BUS" gate="A" pin="1"/>
-<wire x1="360.68" y1="-190.5" x2="353.06" y2="-190.5" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="-190.5" x2="353.06" y2="-190.5" width="0.1524" layer="91"/>
 <label x="353.06" y="-190.5" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="1WIRE-BUS" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="NON-ISOLATED_CON" gate="A" pin="1"/>
@@ -10826,7 +10796,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 </net>
 <net name="GND_ISO" class="0">
 <segment>
-<pinref part="DC-DC" gate="A" pin="GNDISO"/>
+<pinref part="ADUM5000" gate="A" pin="GNDISO"/>
 <wire x1="393.7" y1="12.7" x2="391.16" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="391.16" y1="12.7" x2="391.16" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="391.16" y1="-5.08" x2="431.8" y2="-5.08" width="0.1524" layer="91"/>
@@ -10840,13 +10810,13 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <pinref part="C23" gate="G$1" pin="2"/>
 <junction x="452.12" y="17.78"/>
 <label x="467.36" y="17.78" size="1.778" layer="95" xref="yes"/>
-<pinref part="DC-DC" gate="A" pin="NC"/>
+<pinref part="ADUM5000" gate="A" pin="NC"/>
 <wire x1="429.26" y1="12.7" x2="431.8" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="431.8" y1="12.7" x2="431.8" y2="-5.08" width="0.1524" layer="91"/>
 <junction x="431.8" y="-5.08"/>
 </segment>
 <segment>
-<pinref part="DC-DC" gate="A" pin="GNDISO_2"/>
+<pinref part="ADUM5000" gate="A" pin="GNDISO_2"/>
 <wire x1="393.7" y1="15.24" x2="388.62" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="388.62" y1="15.24" x2="388.62" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="388.62" y1="-7.62" x2="444.5" y2="-7.62" width="0.1524" layer="91"/>
@@ -10864,7 +10834,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <pinref part="C17" gate="G$1" pin="2"/>
 <wire x1="180.34" y1="-134.62" x2="180.34" y2="-144.78" width="0.1524" layer="91"/>
 <junction x="180.34" y="-144.78"/>
-<pinref part="2V5_VOLTAGE_REF" gate="A" pin="GND_FORCE"/>
+<pinref part="ADR3425" gate="A" pin="GND_FORCE"/>
 <wire x1="195.58" y1="-134.62" x2="195.58" y2="-144.78" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="-134.62" x2="195.58" y2="-134.62" width="0.1524" layer="91"/>
 <label x="165.1" y="-144.78" size="1.778" layer="95" rot="R180" xref="yes"/>
@@ -10917,12 +10887,12 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <segment>
 <wire x1="241.3" y1="-5.08" x2="208.28" y2="-5.08" width="0.1524" layer="91"/>
 <label x="208.28" y="-5.08" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="ADC" gate="A" pin="VREFN"/>
+<pinref part="ADS1256" gate="A" pin="VREFN"/>
 </segment>
 <segment>
 <wire x1="241.3" y1="-30.48" x2="228.6" y2="-30.48" width="0.1524" layer="91"/>
 <label x="228.6" y="-30.48" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="ADC" gate="A" pin="AINCOM"/>
+<pinref part="ADS1256" gate="A" pin="AINCOM"/>
 </segment>
 <segment>
 <wire x1="241.3" y1="-60.96" x2="228.6" y2="-60.96" width="0.1524" layer="91"/>
@@ -10931,11 +10901,11 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <wire x1="228.6" y1="-60.96" x2="226.06" y2="-60.96" width="0.1524" layer="91"/>
 <junction x="228.6" y="-60.96"/>
 <label x="226.06" y="-60.96" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="ADC" gate="A" pin="AGND"/>
-<pinref part="ADC" gate="A" pin="DGND"/>
+<pinref part="ADS1256" gate="A" pin="AGND"/>
+<pinref part="ADS1256" gate="A" pin="DGND"/>
 </segment>
 <segment>
-<pinref part="3V3_REGULATOR" gate="A" pin="GND"/>
+<pinref part="LP2985" gate="A" pin="GND"/>
 <wire x1="406.4" y1="-142.24" x2="398.78" y2="-142.24" width="0.1524" layer="91"/>
 <pinref part="C28" gate="G$1" pin="2"/>
 <wire x1="398.78" y1="-142.24" x2="383.54" y2="-142.24" width="0.1524" layer="91"/>
@@ -10952,10 +10922,10 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <label x="350.52" y="-142.24" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RTC" gate="G$1" pin="GND@2"/>
+<pinref part="DS3234" gate="G$1" pin="GND@2"/>
 <wire x1="119.38" y1="-124.46" x2="121.92" y2="-124.46" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="-124.46" x2="121.92" y2="-127" width="0.1524" layer="91"/>
-<pinref part="RTC" gate="G$1" pin="GND"/>
+<pinref part="DS3234" gate="G$1" pin="GND"/>
 <wire x1="121.92" y1="-127" x2="121.92" y2="-129.54" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="-129.54" x2="121.92" y2="-132.08" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="-132.08" x2="121.92" y2="-134.62" width="0.1524" layer="91"/>
@@ -10965,28 +10935,28 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <wire x1="121.92" y1="-142.24" x2="121.92" y2="-144.78" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="-144.78" x2="121.92" y2="-147.32" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="-147.32" x2="119.38" y2="-147.32" width="0.1524" layer="91"/>
-<pinref part="RTC" gate="G$1" pin="GND@14"/>
+<pinref part="DS3234" gate="G$1" pin="GND@14"/>
 <wire x1="119.38" y1="-144.78" x2="121.92" y2="-144.78" width="0.1524" layer="91"/>
 <junction x="121.92" y="-144.78"/>
-<pinref part="RTC" gate="G$1" pin="GND@13"/>
+<pinref part="DS3234" gate="G$1" pin="GND@13"/>
 <wire x1="119.38" y1="-142.24" x2="121.92" y2="-142.24" width="0.1524" layer="91"/>
 <junction x="121.92" y="-142.24"/>
-<pinref part="RTC" gate="G$1" pin="GND@12"/>
+<pinref part="DS3234" gate="G$1" pin="GND@12"/>
 <wire x1="119.38" y1="-139.7" x2="121.92" y2="-139.7" width="0.1524" layer="91"/>
 <junction x="121.92" y="-139.7"/>
-<pinref part="RTC" gate="G$1" pin="GND@11"/>
+<pinref part="DS3234" gate="G$1" pin="GND@11"/>
 <wire x1="119.38" y1="-137.16" x2="121.92" y2="-137.16" width="0.1524" layer="91"/>
 <junction x="121.92" y="-137.16"/>
-<pinref part="RTC" gate="G$1" pin="GND@10"/>
+<pinref part="DS3234" gate="G$1" pin="GND@10"/>
 <wire x1="119.38" y1="-134.62" x2="121.92" y2="-134.62" width="0.1524" layer="91"/>
 <junction x="121.92" y="-134.62"/>
-<pinref part="RTC" gate="G$1" pin="GND@9"/>
+<pinref part="DS3234" gate="G$1" pin="GND@9"/>
 <wire x1="119.38" y1="-132.08" x2="121.92" y2="-132.08" width="0.1524" layer="91"/>
 <junction x="121.92" y="-132.08"/>
-<pinref part="RTC" gate="G$1" pin="GND@8"/>
+<pinref part="DS3234" gate="G$1" pin="GND@8"/>
 <wire x1="119.38" y1="-129.54" x2="121.92" y2="-129.54" width="0.1524" layer="91"/>
 <junction x="121.92" y="-129.54"/>
-<pinref part="RTC" gate="G$1" pin="GND@7"/>
+<pinref part="DS3234" gate="G$1" pin="GND@7"/>
 <wire x1="119.38" y1="-127" x2="121.92" y2="-127" width="0.1524" layer="91"/>
 <junction x="121.92" y="-127"/>
 <wire x1="121.92" y1="-147.32" x2="121.92" y2="-154.94" width="0.1524" layer="91"/>
@@ -11031,17 +11001,17 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <label x="142.24" y="-261.62" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RESET_BUTTON" gate="S" pin="2"/>
+<pinref part="RESET" gate="S" pin="2"/>
 <wire x1="144.78" y1="-195.58" x2="142.24" y2="-195.58" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="-195.58" x2="142.24" y2="-193.04" width="0.1524" layer="91"/>
-<pinref part="RESET_BUTTON" gate="S" pin="1"/>
+<pinref part="RESET" gate="S" pin="1"/>
 <wire x1="144.78" y1="-193.04" x2="142.24" y2="-193.04" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="-193.04" x2="137.16" y2="-193.04" width="0.1524" layer="91"/>
 <junction x="142.24" y="-193.04"/>
 <label x="137.16" y="-193.04" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SIGNAL_ISOLATOR" gate="IC" pin="GNDB"/>
+<pinref part="MAX14850" gate="IC" pin="GNDB"/>
 <wire x1="419.1" y1="-53.34" x2="482.6" y2="-53.34" width="0.1524" layer="91"/>
 <pinref part="C27" gate="G$1" pin="2"/>
 <wire x1="482.6" y1="-53.34" x2="487.68" y2="-53.34" width="0.1524" layer="91"/>
@@ -11050,9 +11020,9 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <label x="487.68" y="-53.34" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="1WIRE_BUS" gate="A" pin="3"/>
-<wire x1="360.68" y1="-195.58" x2="355.6" y2="-195.58" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="-195.58" x2="355.6" y2="-195.58" width="0.1524" layer="91"/>
 <label x="355.6" y="-195.58" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="1WIRE-BUS" gate="G$1" pin="3"/>
 </segment>
 <segment>
 <pinref part="NON-ISOLATED_CON" gate="A" pin="2"/>
@@ -11062,7 +11032,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 </net>
 <net name="IN2_ISO" class="0">
 <segment>
-<pinref part="SIGNAL_ISOLATOR" gate="IC" pin="OUTB2"/>
+<pinref part="MAX14850" gate="IC" pin="OUTB2"/>
 <wire x1="419.1" y1="-40.64" x2="441.96" y2="-40.64" width="0.1524" layer="91"/>
 <label x="441.96" y="-40.64" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -11079,7 +11049,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 </net>
 <net name="OUT1_ISO" class="0">
 <segment>
-<pinref part="SIGNAL_ISOLATOR" gate="IC" pin="INB1"/>
+<pinref part="MAX14850" gate="IC" pin="INB1"/>
 <wire x1="419.1" y1="-43.18" x2="426.72" y2="-43.18" width="0.1524" layer="91"/>
 <label x="426.72" y="-43.18" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -11096,7 +11066,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 </net>
 <net name="OUT2_ISO" class="0">
 <segment>
-<pinref part="SIGNAL_ISOLATOR" gate="IC" pin="INB2"/>
+<pinref part="MAX14850" gate="IC" pin="INB2"/>
 <wire x1="419.1" y1="-45.72" x2="441.96" y2="-45.72" width="0.1524" layer="91"/>
 <label x="441.96" y="-45.72" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -11113,7 +11083,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 </net>
 <net name="SDA_ISO" class="0">
 <segment>
-<pinref part="SIGNAL_ISOLATOR" gate="IC" pin="I/OB1"/>
+<pinref part="MAX14850" gate="IC" pin="I/OB1"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="419.1" y1="-48.26" x2="464.82" y2="-48.26" width="0.1524" layer="91"/>
 <wire x1="464.82" y1="-48.26" x2="464.82" y2="-66.04" width="0.1524" layer="91"/>
@@ -11134,7 +11104,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 </net>
 <net name="SCL_ISO" class="0">
 <segment>
-<pinref part="SIGNAL_ISOLATOR" gate="IC" pin="I/OB2"/>
+<pinref part="MAX14850" gate="IC" pin="I/OB2"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="472.44" y1="-48.26" x2="472.44" y2="-50.8" width="0.1524" layer="91"/>
 <wire x1="472.44" y1="-50.8" x2="419.1" y2="-50.8" width="0.1524" layer="91"/>
@@ -11156,7 +11126,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 </net>
 <net name="IN2" class="0">
 <segment>
-<pinref part="SIGNAL_ISOLATOR" gate="IC" pin="INA2"/>
+<pinref part="MAX14850" gate="IC" pin="INA2"/>
 <wire x1="403.86" y1="-40.64" x2="386.08" y2="-40.64" width="0.1524" layer="91"/>
 <label x="386.08" y="-40.64" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -11168,7 +11138,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 </net>
 <net name="IN1" class="0">
 <segment>
-<pinref part="SIGNAL_ISOLATOR" gate="IC" pin="INA1"/>
+<pinref part="MAX14850" gate="IC" pin="INA1"/>
 <wire x1="403.86" y1="-38.1" x2="396.24" y2="-38.1" width="0.1524" layer="91"/>
 <label x="396.24" y="-38.1" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -11180,7 +11150,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 </net>
 <net name="OUT1" class="0">
 <segment>
-<pinref part="SIGNAL_ISOLATOR" gate="IC" pin="OUTA1"/>
+<pinref part="MAX14850" gate="IC" pin="OUTA1"/>
 <wire x1="403.86" y1="-43.18" x2="396.24" y2="-43.18" width="0.1524" layer="91"/>
 <label x="396.24" y="-43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -11192,7 +11162,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 </net>
 <net name="OUT2" class="0">
 <segment>
-<pinref part="SIGNAL_ISOLATOR" gate="IC" pin="OUTA2"/>
+<pinref part="MAX14850" gate="IC" pin="OUTA2"/>
 <wire x1="403.86" y1="-45.72" x2="386.08" y2="-45.72" width="0.1524" layer="91"/>
 <label x="386.08" y="-45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -11206,7 +11176,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <segment>
 <wire x1="241.3" y1="-20.32" x2="226.06" y2="-20.32" width="0.1524" layer="91"/>
 <label x="226.06" y="-20.32" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="ADC" gate="A" pin="VREFP"/>
+<pinref part="ADS1256" gate="A" pin="VREFP"/>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="1"/>
@@ -11221,7 +11191,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="261.62" y1="-127" x2="261.62" y2="-116.84" width="0.1524" layer="91"/>
 <junction x="261.62" y="-116.84"/>
-<pinref part="2V5_VOLTAGE_REF" gate="A" pin="VOUT_FORCE"/>
+<pinref part="ADR3425" gate="A" pin="VOUT_FORCE"/>
 <wire x1="243.84" y1="-116.84" x2="248.92" y2="-116.84" width="0.1524" layer="91"/>
 <junction x="248.92" y="-116.84"/>
 <wire x1="248.92" y1="-116.84" x2="261.62" y2="-116.84" width="0.1524" layer="91"/>
@@ -11242,21 +11212,21 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <wire x1="208.28" y1="5.08" x2="208.28" y2="2.54" width="0.1524" layer="91"/>
 <junction x="208.28" y="2.54"/>
 <label x="190.5" y="2.54" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="ADC" gate="A" pin="DVDD"/>
+<pinref part="ADS1256" gate="A" pin="DVDD"/>
 </segment>
 <segment>
 <wire x1="193.04" y1="-25.4" x2="190.5" y2="-25.4" width="0.1524" layer="91"/>
 <label x="190.5" y="-25.4" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="SJ1" gate="1" pin="1"/>
+<pinref part="SJ1-RST" gate="1" pin="1"/>
 <wire x1="193.04" y1="-25.4" x2="193.04" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="-22.86" x2="195.58" y2="-22.86" width="0.1524" layer="91"/>
-<pinref part="SJ2" gate="1" pin="1"/>
+<pinref part="SJ2-SYNC" gate="1" pin="1"/>
 <wire x1="193.04" y1="-25.4" x2="193.04" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="-27.94" x2="200.66" y2="-27.94" width="0.1524" layer="91"/>
 <junction x="193.04" y="-25.4"/>
 </segment>
 <segment>
-<pinref part="3V3_REGULATOR" gate="A" pin="VOUT"/>
+<pinref part="LP2985" gate="A" pin="VOUT"/>
 <wire x1="441.96" y1="-127" x2="457.2" y2="-127" width="0.1524" layer="91"/>
 <pinref part="C30" gate="G$1" pin="1"/>
 <wire x1="457.2" y1="-127" x2="469.9" y2="-127" width="0.1524" layer="91"/>
@@ -11265,7 +11235,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <label x="469.9" y="-127" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="RTC" gate="G$1" pin="VCC"/>
+<pinref part="DS3234" gate="G$1" pin="VCC"/>
 <wire x1="86.36" y1="-119.38" x2="55.88" y2="-119.38" width="0.1524" layer="91"/>
 <pinref part="C31" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="-119.38" x2="33.02" y2="-119.38" width="0.1524" layer="91"/>
@@ -11280,7 +11250,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 </net>
 <net name="N$21" class="0">
 <segment>
-<pinref part="3V3_REGULATOR" gate="A" pin="BYPASS"/>
+<pinref part="LP2985" gate="A" pin="BYPASS"/>
 <wire x1="406.4" y1="-137.16" x2="396.24" y2="-137.16" width="0.1524" layer="91"/>
 <wire x1="396.24" y1="-137.16" x2="396.24" y2="-129.54" width="0.1524" layer="91"/>
 <pinref part="C29" gate="G$1" pin="1"/>
@@ -11290,7 +11260,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 </net>
 <net name="RTC_SQW" class="0">
 <segment>
-<pinref part="RTC" gate="G$1" pin="INT/SQW"/>
+<pinref part="DS3234" gate="G$1" pin="INT/SQW"/>
 <wire x1="86.36" y1="-139.7" x2="55.88" y2="-139.7" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="-139.7" x2="50.8" y2="-139.7" width="0.1524" layer="91"/>
@@ -11306,14 +11276,14 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 </net>
 <net name="MISO" class="0">
 <segment>
-<pinref part="RTC" gate="G$1" pin="DOUT"/>
+<pinref part="DS3234" gate="G$1" pin="DOUT"/>
 <wire x1="86.36" y1="-129.54" x2="73.66" y2="-129.54" width="0.1524" layer="91"/>
 <label x="73.66" y="-129.54" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="281.94" y1="-7.62" x2="299.72" y2="-7.62" width="0.1524" layer="91"/>
 <label x="299.72" y="-7.62" size="1.778" layer="95" xref="yes"/>
-<pinref part="ADC" gate="A" pin="DOUT"/>
+<pinref part="ADS1256" gate="A" pin="DOUT"/>
 </segment>
 <segment>
 <pinref part="ATMEGA328" gate="U$1" pin="PB4(MISO)"/>
@@ -11322,13 +11292,13 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 </segment>
 <segment>
 <pinref part="ICSP" gate="G$1" pin="1"/>
-<wire x1="396.24" y1="-193.04" x2="393.7" y2="-193.04" width="0.1524" layer="91"/>
-<label x="393.7" y="-193.04" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="403.86" y1="-185.42" x2="401.32" y2="-185.42" width="0.1524" layer="91"/>
+<label x="401.32" y="-185.42" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
 <segment>
-<pinref part="RTC" gate="G$1" pin="DIN"/>
+<pinref part="DS3234" gate="G$1" pin="DIN"/>
 <wire x1="86.36" y1="-132.08" x2="83.82" y2="-132.08" width="0.1524" layer="91"/>
 <label x="83.82" y="-132.08" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -11344,13 +11314,13 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 </segment>
 <segment>
 <pinref part="ICSP" gate="G$1" pin="4"/>
-<wire x1="411.48" y1="-195.58" x2="421.64" y2="-195.58" width="0.1524" layer="91"/>
-<label x="421.64" y="-195.58" size="1.778" layer="95" xref="yes"/>
+<wire x1="419.1" y1="-187.96" x2="429.26" y2="-187.96" width="0.1524" layer="91"/>
+<label x="429.26" y="-187.96" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="RTC_CS" class="0">
 <segment>
-<pinref part="RTC" gate="G$1" pin="CS"/>
+<pinref part="DS3234" gate="G$1" pin="CS"/>
 <wire x1="86.36" y1="-134.62" x2="73.66" y2="-134.62" width="0.1524" layer="91"/>
 <label x="73.66" y="-134.62" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -11362,7 +11332,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="ADC" gate="A" pin="DIN"/>
+<pinref part="ADS1256" gate="A" pin="DIN"/>
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="241.3" y1="-2.54" x2="238.76" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
@@ -11372,28 +11342,28 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="231.14" y1="-10.16" x2="233.68" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="-10.16" x2="233.68" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="ADC" gate="A" pin="SCLK"/>
+<pinref part="ADS1256" gate="A" pin="SCLK"/>
 <wire x1="233.68" y1="-7.62" x2="241.3" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="ADC" gate="A" pin="~CS"/>
+<pinref part="ADS1256" gate="A" pin="~CS"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="241.3" y1="-25.4" x2="238.76" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="SJ1" gate="1" pin="2"/>
-<pinref part="ADC" gate="A" pin="~RESET"/>
+<pinref part="SJ1-RST" gate="1" pin="2"/>
+<pinref part="ADS1256" gate="A" pin="~RESET"/>
 <wire x1="205.74" y1="-22.86" x2="241.3" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
-<pinref part="SJ2" gate="1" pin="2"/>
-<pinref part="ADC" gate="A" pin="~SYNC,_~PDWN"/>
+<pinref part="SJ2-SYNC" gate="1" pin="2"/>
+<pinref part="ADS1256" gate="A" pin="~SYNC,_~PDWN"/>
 <wire x1="210.82" y1="-27.94" x2="241.3" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -11434,9 +11404,9 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <junction x="259.08" y="-241.3"/>
 </segment>
 <segment>
-<pinref part="1WIRE_BUS" gate="A" pin="2"/>
-<wire x1="360.68" y1="-193.04" x2="340.36" y2="-193.04" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="-193.04" x2="340.36" y2="-193.04" width="0.1524" layer="91"/>
 <label x="340.36" y="-193.04" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="1WIRE-BUS" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="RESET" class="0">
@@ -11444,13 +11414,13 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <pinref part="R11" gate="G$1" pin="2"/>
 <pinref part="ATMEGA328" gate="U$1" pin="PC6(/RESET)"/>
 <wire x1="152.4" y1="-208.28" x2="157.48" y2="-208.28" width="0.1524" layer="91"/>
-<pinref part="RESET_BUTTON" gate="S" pin="3"/>
+<pinref part="RESET" gate="S" pin="3"/>
 <wire x1="157.48" y1="-208.28" x2="160.02" y2="-208.28" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="-208.28" x2="162.56" y2="-208.28" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="-193.04" x2="157.48" y2="-193.04" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="-193.04" x2="157.48" y2="-195.58" width="0.1524" layer="91"/>
 <junction x="157.48" y="-208.28"/>
-<pinref part="RESET_BUTTON" gate="S" pin="4"/>
+<pinref part="RESET" gate="S" pin="4"/>
 <wire x1="157.48" y1="-195.58" x2="157.48" y2="-208.28" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="-195.58" x2="157.48" y2="-195.58" width="0.1524" layer="91"/>
 <junction x="157.48" y="-195.58"/>
@@ -11460,14 +11430,14 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <label x="170.18" y="-190.5" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SIGNAL_ISOLATOR" gate="IC" pin="OUTB1"/>
+<pinref part="MAX14850" gate="IC" pin="OUTB1"/>
 <wire x1="419.1" y1="-38.1" x2="426.72" y2="-38.1" width="0.1524" layer="91"/>
 <label x="426.72" y="-38.1" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="ICSP" gate="G$1" pin="5"/>
-<wire x1="396.24" y1="-198.12" x2="393.7" y2="-198.12" width="0.1524" layer="91"/>
-<label x="393.7" y="-198.12" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="403.86" y1="-190.5" x2="401.32" y2="-190.5" width="0.1524" layer="91"/>
+<label x="401.32" y="-190.5" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="NON-ISOLATED_CON" gate="A" pin="3"/>
@@ -11477,7 +11447,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 </net>
 <net name="GND_SENSE" class="0">
 <segment>
-<pinref part="2V5_VOLTAGE_REF" gate="A" pin="GND_SEN"/>
+<pinref part="ADR3425" gate="A" pin="GND_SEN"/>
 <wire x1="198.12" y1="-129.54" x2="193.04" y2="-129.54" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="-129.54" x2="193.04" y2="-154.94" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="-154.94" x2="287.02" y2="-154.94" width="0.1524" layer="91"/>
@@ -11486,7 +11456,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 </net>
 <net name="V_SENSE" class="0">
 <segment>
-<pinref part="2V5_VOLTAGE_REF" gate="A" pin="VOUT_SEN"/>
+<pinref part="ADR3425" gate="A" pin="VOUT_SEN"/>
 <wire x1="198.12" y1="-127" x2="193.04" y2="-127" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="-127" x2="193.04" y2="-106.68" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="-106.68" x2="287.02" y2="-106.68" width="0.1524" layer="91"/>
@@ -11496,7 +11466,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <net name="N$15" class="0">
 <segment>
 <pinref part="BAT1" gate="G$1" pin="+"/>
-<pinref part="RTC" gate="G$1" pin="VBAT"/>
+<pinref part="DS3234" gate="G$1" pin="VBAT"/>
 <wire x1="121.92" y1="-119.38" x2="119.38" y2="-119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
