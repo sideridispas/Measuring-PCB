@@ -151,7 +151,7 @@
 <hole x="95" y="5" drill="4"/>
 <hole x="36" y="55" drill="4"/>
 <text x="98.7425" y="7.9375" size="1.27" layer="1" font="vector" rot="R90">KULEUVEN - IMEC</text>
-<text x="67.31" y="1.27" size="1.27" layer="112" font="vector">v2.2 - March 2016
+<text x="67.31" y="1.27" size="1.27" layer="112" font="vector">v2.3 - March 2016
 Paschalis Sideridis</text>
 <text x="59.3725" y="14.605" size="1.27" layer="112" rot="R180" align="bottom-center">BATTERY
 3V</text>

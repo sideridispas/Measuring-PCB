@@ -1636,7 +1636,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="11.557" y="70.612" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R3A" library="adafruit" package="M3216" value="1k" x="41.91" y="57.15" smashed="yes" rot="R90">
-<attribute name="NAME" x="33.02" y="40.3225" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="40.005" y="55.5625" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="45.085" y="55.88" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R3B" library="adafruit" package="M3216" value="1k" x="53.975" y="57.15" smashed="yes" rot="R90">
@@ -1664,8 +1664,8 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="43.942" y="11.303" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R9" library="adafruit" package="R3216" value="10k" x="33.655" y="41.275" smashed="yes" rot="R90">
-<attribute name="NAME" x="32.512" y="39.878" size="1.27" layer="25" rot="R90"/>
-<attribute name="VALUE" x="36.068" y="39.878" size="1.27" layer="27" rot="R90"/>
+<attribute name="NAME" x="36.322" y="37.973" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="36.3855" y="40.8305" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="RESET" library="SparkFun-Retired" package="TACTILE-SWITCH-SMD" value="TAC_SWITCHSMD" x="5.08" y="12.7" smashed="yes" rot="R180">
 <attribute name="PROD_ID" value="SWCH-08247" x="5.08" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
