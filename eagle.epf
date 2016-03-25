@@ -384,7 +384,7 @@ UsedLibrary="C:/Users/Paschalis/Documents/external_lbrs/adafruit.lbr"
 [Win_1]
 Type="Control Panel"
 Loc="0 0 1365 704"
-State=3
+State=1
 Number=0
 
 [Desktop]
