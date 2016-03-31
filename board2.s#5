@@ -10640,7 +10640,7 @@ Various common sizes : AA, AAA, 18650 (PRT-12895), 20mm coin cell and 12mm coin 
 <part name="R7" library="adafruit" deviceset="R-US_" device="R3216" value="100"/>
 <part name="R8" library="adafruit" deviceset="R-US_" device="R3216" value="100"/>
 <part name="C16" library="adafruit" deviceset="C-US" device="C3216" value="0.1u"/>
-<part name="AIN6-7" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
+<part name="AIN6-7" library="SparkFun-Connectors" deviceset="M02" device="1X02_NO_SILK"/>
 <part name="ADS1256" library="Texas Instruments_By_element14_Batch_1" deviceset="ADS1256IDBT" device=""/>
 <part name="SJ1-RST" library="jumper" deviceset="SJ" device=""/>
 <part name="SJ2-SYNC" library="jumper" deviceset="SJ" device=""/>
@@ -10681,7 +10681,7 @@ Various common sizes : AA, AAA, 18650 (PRT-12895), 20mm coin cell and 12mm coin 
 <part name="NON-ISOLATED_CON" library="adafruit" deviceset="PINHD-2X4" device=""/>
 <part name="1WIRE-BUS" library="Paschalis_connectors" deviceset="PHOENIX-TERMINAL-3PIN" device=""/>
 <part name="RX-TX" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
-<part name="JP1" library="SparkFun-Connectors" deviceset="M04" device="NO_SILK_ALL_ROUND"/>
+<part name="D0-D3" library="SparkFun-Connectors" deviceset="M04" device="NO_SILK_ALL_ROUND"/>
 </parts>
 <sheets>
 <sheet>
@@ -10718,14 +10718,16 @@ Various common sizes : AA, AAA, 18650 (PRT-12895), 20mm coin cell and 12mm coin 
 <text x="-5.08" y="-91.44" size="5.08" layer="98">Real Time Clock</text>
 <text x="-5.08" y="-175.26" size="5.08" layer="98">Standalone Arduino (atmega328)</text>
 <text x="322.58" y="-175.26" size="5.08" layer="98">Connectors</text>
-<text x="406.4" y="-228.6" size="6.4516" layer="98">Measuring PCB v2.3</text>
+<text x="381" y="-228.6" size="6.4516" layer="98">Measuring PCB v2.4</text>
 <wire x1="370.84" y1="-281.94" x2="370.84" y2="-248.92" width="0.1524" layer="98"/>
 <wire x1="370.84" y1="-248.92" x2="370.84" y2="-233.68" width="0.1524" layer="98"/>
 <wire x1="370.84" y1="-233.68" x2="370.84" y2="-215.9" width="0.1524" layer="98"/>
-<wire x1="370.84" y1="-215.9" x2="513.08" y2="-215.9" width="0.1524" layer="98"/>
+<wire x1="370.84" y1="-215.9" x2="467.36" y2="-215.9" width="0.1524" layer="98"/>
+<wire x1="467.36" y1="-215.9" x2="513.08" y2="-215.9" width="0.1524" layer="98"/>
 <wire x1="370.84" y1="-233.68" x2="439.42" y2="-233.68" width="0.1524" layer="98"/>
 <text x="373.38" y="-220.98" size="2.54" layer="98">title</text>
-<wire x1="439.42" y1="-233.68" x2="513.08" y2="-233.68" width="0.1524" layer="98"/>
+<wire x1="439.42" y1="-233.68" x2="467.36" y2="-233.68" width="0.1524" layer="98"/>
+<wire x1="467.36" y1="-233.68" x2="513.08" y2="-233.68" width="0.1524" layer="98"/>
 <wire x1="370.84" y1="-248.92" x2="439.42" y2="-248.92" width="0.1524" layer="98"/>
 <text x="373.38" y="-238.76" size="2.54" layer="98">designer</text>
 <text x="378.46" y="-246.38" size="5.08" layer="98">Sideridis Paschalis</text>
@@ -10738,9 +10740,12 @@ Various common sizes : AA, AAA, 18650 (PRT-12895), 20mm coin cell and 12mm coin 
 panel.In addition, it gets Date and Time stamp. The data are
 collected by the microprocessor Atmega328 and send out as
 I2C packages to master board. Every connection outside the
-board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
+board is isolated. (NOMINAL 40V@8A, MAX 44V@15A)</text>
 <wire x1="317.5" y1="-165.1" x2="317.5" y2="-281.94" width="0.1524" layer="98" style="longdash"/>
 <text x="322.58" y="-91.44" size="5.08" layer="98">3V3 Regulator</text>
+<wire x1="467.36" y1="-215.9" x2="467.36" y2="-233.68" width="0.1524" layer="98"/>
+<text x="490.22" y="-231.14" size="5.08" layer="98" align="bottom-center">IMEC
+KU Leuven</text>
 </plain>
 <instances>
 <instance part="VPANEL" gate="G$1" x="12.7" y="48.26"/>
@@ -10820,7 +10825,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <instance part="NON-ISOLATED_CON" gate="A" x="467.36" y="-203.2"/>
 <instance part="1WIRE-BUS" gate="G$1" x="365.76" y="-193.04"/>
 <instance part="RX-TX" gate="G$1" x="353.06" y="-215.9" rot="R180"/>
-<instance part="JP1" gate="G$1" x="350.52" y="-256.54" rot="R180"/>
+<instance part="D0-D3" gate="G$1" x="350.52" y="-256.54" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -12173,7 +12178,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <label x="281.94" y="20.32" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="G$1" pin="2"/>
+<pinref part="D0-D3" gate="G$1" pin="2"/>
 <wire x1="345.44" y1="-256.54" x2="335.28" y2="-256.54" width="0.1524" layer="91"/>
 <label x="335.28" y="-256.54" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -12185,7 +12190,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <label x="287.02" y="17.78" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="G$1" pin="3"/>
+<pinref part="D0-D3" gate="G$1" pin="3"/>
 <wire x1="345.44" y1="-259.08" x2="342.9" y2="-259.08" width="0.1524" layer="91"/>
 <label x="342.9" y="-259.08" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -12197,7 +12202,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <label x="281.94" y="15.24" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="G$1" pin="4"/>
+<pinref part="D0-D3" gate="G$1" pin="4"/>
 <wire x1="345.44" y1="-261.62" x2="335.28" y2="-261.62" width="0.1524" layer="91"/>
 <label x="335.28" y="-261.62" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -12209,7 +12214,7 @@ board is isolated. (NOMINAL 40V@8A, MAX 45V@15A)</text>
 <label x="281.94" y="5.08" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="G$1" pin="1"/>
+<pinref part="D0-D3" gate="G$1" pin="1"/>
 <wire x1="345.44" y1="-254" x2="342.9" y2="-254" width="0.1524" layer="91"/>
 <label x="342.9" y="-254" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>

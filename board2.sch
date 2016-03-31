@@ -144,12 +144,12 @@
 <libraries>
 <library name="TE CONNECTIVITY">
 <packages>
-<package name="2TERMINALBLOCK_10MMPITCH">
+<package name="2TERMINALBLOCK_10.1MMPITCH">
 <description>&lt;b&gt;Terminal Block&lt;/b&gt;
 &lt;p&gt;2 pin terminal block - PCB mount&lt;/p&gt;
 &lt;p&gt;Pitch: 10.0mm&lt;/p&gt;</description>
-<pad name="1" x="5" y="0" drill="1.4" diameter="2.54" rot="R90"/>
-<pad name="2" x="-5" y="0" drill="1.4" diameter="2.54"/>
+<pad name="1" x="5.05" y="0" drill="1.5" diameter="2.7" rot="R90"/>
+<pad name="2" x="-5.05" y="0" drill="1.5" diameter="2.7"/>
 <wire x1="7.5" y1="5" x2="7.5" y2="-5" width="0.127" layer="21"/>
 <wire x1="7.5" y1="-5" x2="-7.5" y2="-5" width="0.127" layer="21"/>
 <wire x1="-7.5" y1="-5" x2="-7.5" y2="5" width="0.127" layer="21"/>
@@ -173,7 +173,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="2PIN_TERMINAL_PCBMOUNT">
+<deviceset name="2PIN_TERMINAL_PCBMOUNT_10.1MM">
 <description>&lt;b&gt;2 pin Terminal Connector&lt;/b&gt;
 &lt;p&gt;Simple 2 pin Terminal Conector&lt;/p&gt;
 &lt;p&gt;Pins: 2&lt;/p&gt;
@@ -182,7 +182,7 @@
 <gate name="G$1" symbol="2PIN_TERMINAL" x="5.08" y="2.54"/>
 </gates>
 <devices>
-<device name="" package="2TERMINALBLOCK_10MMPITCH">
+<device name="" package="2TERMINALBLOCK_10.1MMPITCH">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -8258,8 +8258,8 @@ Source: 008-0260-0_E.pdf</description>
 <wire x1="-21.969" y1="3.429" x2="-21.969" y2="2.54" width="0.1524" layer="21"/>
 <wire x1="-22.35" y1="3.429" x2="-22.35" y2="2.032" width="0.1524" layer="21"/>
 <wire x1="-22.604" y1="2.032" x2="-22.604" y2="3.683" width="0.1524" layer="21"/>
-<pad name="2A" x="0.034" y="0" drill="1.3208" diameter="2.54" shape="long" rot="R90"/>
-<pad name="1A" x="-23.144" y="0" drill="1.3208" diameter="2.54" shape="long" rot="R90"/>
+<pad name="2A" x="0.034" y="0" drill="1.6" diameter="2.54" shape="long" rot="R90"/>
+<pad name="1A" x="-23.144" y="0" drill="1.6" diameter="2.54" shape="long" rot="R90"/>
 <text x="-15.365" y="3.175" size="1.778" layer="25" ratio="10">&gt;NAME</text>
 <text x="-15.365" y="-5.08" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-21.588" y1="-2.032" x2="-21.207" y2="2.032" layer="51"/>
@@ -8292,8 +8292,8 @@ Source: 008-0260-0_E.pdf</description>
 <rectangle x1="-17.778" y1="-2.032" x2="-17.524" y2="-1.905" layer="51"/>
 <rectangle x1="-20.953" y1="-2.032" x2="-17.778" y2="-1.905" layer="21"/>
 <rectangle x1="-21.207" y1="-2.032" x2="-20.953" y2="-1.905" layer="51"/>
-<pad name="1B" x="-16.384" y="0" drill="1.3208" diameter="2.54" shape="long" rot="R90"/>
-<pad name="2B" x="-6.726" y="0" drill="1.3208" diameter="2.54" shape="long" rot="R90"/>
+<pad name="1B" x="-16.384" y="0" drill="1.6" diameter="2.54" shape="long" rot="R90"/>
+<pad name="2B" x="-6.726" y="0" drill="1.6" diameter="2.54" shape="long" rot="R90"/>
 </package>
 </packages>
 <symbols>
@@ -10604,8 +10604,8 @@ Various common sizes : AA, AAA, 18650 (PRT-12895), 20mm coin cell and 12mm coin 
 </class>
 </classes>
 <parts>
-<part name="VPANEL" library="TE CONNECTIVITY" deviceset="2PIN_TERMINAL_PCBMOUNT" device=""/>
-<part name="VOUT" library="TE CONNECTIVITY" deviceset="2PIN_TERMINAL_PCBMOUNT" device=""/>
+<part name="VPANEL" library="TE CONNECTIVITY" deviceset="2PIN_TERMINAL_PCBMOUNT_10.1MM" device=""/>
+<part name="VOUT" library="TE CONNECTIVITY" deviceset="2PIN_TERMINAL_PCBMOUNT_10.1MM" device=""/>
 <part name="JP1A" library="SparkFun-Connectors" deviceset="M03" device="PTH"/>
 <part name="JP1B" library="SparkFun-Connectors" deviceset="M03" device="PTH"/>
 <part name="JP2A" library="SparkFun-Connectors" deviceset="M03" device="PTH"/>
@@ -10674,7 +10674,7 @@ Various common sizes : AA, AAA, 18650 (PRT-12895), 20mm coin cell and 12mm coin 
 <part name="C32" library="adafruit" deviceset="C-US" device="C3216" value="22p"/>
 <part name="C33" library="adafruit" deviceset="C-US" device="C3216" value="22p"/>
 <part name="Q2" library="adafruit" deviceset="CRYSTAL" device="HC49U-V" value="16MHz"/>
-<part name="C34" library="adafruit" deviceset="C-US" device="C3216" value="22p"/>
+<part name="C34" library="adafruit" deviceset="C-US" device="C3216" value="0.1u"/>
 <part name="R10" library="adafruit" deviceset="R-US_" device="R3216" value="4.7k"/>
 <part name="R11" library="adafruit" deviceset="R-US_" device="R3216" value="10k"/>
 <part name="BAT1" library="SparkFun-Electromechanical" deviceset="BATTERY" device="12MM" value="3V"/>
@@ -10682,6 +10682,7 @@ Various common sizes : AA, AAA, 18650 (PRT-12895), 20mm coin cell and 12mm coin 
 <part name="1WIRE-BUS" library="Paschalis_connectors" deviceset="PHOENIX-TERMINAL-3PIN" device=""/>
 <part name="RX-TX" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 <part name="D0-D3" library="SparkFun-Connectors" deviceset="M04" device="NO_SILK_ALL_ROUND"/>
+<part name="C35" library="adafruit" deviceset="C-US" device="C3216" value="1u"/>
 </parts>
 <sheets>
 <sheet>
@@ -10718,7 +10719,7 @@ Various common sizes : AA, AAA, 18650 (PRT-12895), 20mm coin cell and 12mm coin 
 <text x="-5.08" y="-91.44" size="5.08" layer="98">Real Time Clock</text>
 <text x="-5.08" y="-175.26" size="5.08" layer="98">Standalone Arduino (atmega328)</text>
 <text x="322.58" y="-175.26" size="5.08" layer="98">Connectors</text>
-<text x="381" y="-228.6" size="6.4516" layer="98">Measuring PCB v2.3</text>
+<text x="381" y="-228.6" size="6.4516" layer="98">Measuring PCB v2.4</text>
 <wire x1="370.84" y1="-281.94" x2="370.84" y2="-248.92" width="0.1524" layer="98"/>
 <wire x1="370.84" y1="-248.92" x2="370.84" y2="-233.68" width="0.1524" layer="98"/>
 <wire x1="370.84" y1="-233.68" x2="370.84" y2="-215.9" width="0.1524" layer="98"/>
@@ -10826,6 +10827,7 @@ KU Leuven</text>
 <instance part="1WIRE-BUS" gate="G$1" x="365.76" y="-193.04"/>
 <instance part="RX-TX" gate="G$1" x="353.06" y="-215.9" rot="R180"/>
 <instance part="D0-D3" gate="G$1" x="350.52" y="-256.54" rot="R180"/>
+<instance part="C35" gate="G$1" x="170.18" y="-129.54"/>
 </instances>
 <busses>
 </busses>
@@ -11360,8 +11362,9 @@ KU Leuven</text>
 <pinref part="ADR3425" gate="A" pin="VIN"/>
 <wire x1="198.12" y1="-116.84" x2="195.58" y2="-116.84" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="-116.84" x2="180.34" y2="-116.84" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="-116.84" x2="165.1" y2="-116.84" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="-116.84" x2="170.18" y2="-116.84" width="0.1524" layer="91"/>
 <pinref part="C17" gate="G$1" pin="1"/>
+<wire x1="170.18" y1="-116.84" x2="165.1" y2="-116.84" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="-127" x2="180.34" y2="-116.84" width="0.1524" layer="91"/>
 <junction x="180.34" y="-116.84"/>
 <pinref part="ADR3425" gate="A" pin="EN"/>
@@ -11369,6 +11372,9 @@ KU Leuven</text>
 <wire x1="195.58" y1="-121.92" x2="195.58" y2="-116.84" width="0.1524" layer="91"/>
 <junction x="195.58" y="-116.84"/>
 <label x="165.1" y="-116.84" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="C35" gate="G$1" pin="1"/>
+<wire x1="170.18" y1="-127" x2="170.18" y2="-116.84" width="0.1524" layer="91"/>
+<junction x="170.18" y="-116.84"/>
 </segment>
 <segment>
 <wire x1="187.96" y1="43.18" x2="198.12" y2="43.18" width="0.1524" layer="91"/>
@@ -11477,7 +11483,8 @@ KU Leuven</text>
 <label x="467.36" y="-7.62" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="165.1" y1="-144.78" x2="180.34" y2="-144.78" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="-144.78" x2="170.18" y2="-144.78" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="-144.78" x2="180.34" y2="-144.78" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="-144.78" x2="195.58" y2="-144.78" width="0.1524" layer="91"/>
 <pinref part="C17" gate="G$1" pin="2"/>
 <wire x1="180.34" y1="-134.62" x2="180.34" y2="-144.78" width="0.1524" layer="91"/>
@@ -11505,6 +11512,9 @@ KU Leuven</text>
 <label x="289.56" y="-144.78" size="1.778" layer="95" xref="yes"/>
 <junction x="261.62" y="-144.78"/>
 <wire x1="248.92" y1="-144.78" x2="261.62" y2="-144.78" width="0.1524" layer="91"/>
+<pinref part="C35" gate="G$1" pin="2"/>
+<wire x1="170.18" y1="-134.62" x2="170.18" y2="-144.78" width="0.1524" layer="91"/>
+<junction x="170.18" y="-144.78"/>
 </segment>
 <segment>
 <pinref part="C7" gate="G$1" pin="2"/>
