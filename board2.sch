@@ -9720,8 +9720,6 @@ at 30/07/2012 17:45:58</description>
 <smd name="26" x="3.6322" y="2.921" dx="1.651" dy="0.4318" layer="1"/>
 <smd name="27" x="3.6322" y="3.5814" dx="1.651" dy="0.4318" layer="1"/>
 <smd name="28" x="3.6322" y="4.2164" dx="1.651" dy="0.4318" layer="1"/>
-<wire x1="-5.7912" y1="-1.6002" x2="-4.7752" y2="-1.6002" width="0.1524" layer="21"/>
-<wire x1="4.8006" y1="-0.9144" x2="5.8166" y2="-0.9144" width="0.1524" layer="21"/>
 <wire x1="2.794" y1="4.7752" x2="2.794" y2="5.2578" width="0.1524" layer="21"/>
 <wire x1="-2.794" y1="-4.7752" x2="-2.794" y2="-5.2578" width="0.1524" layer="21"/>
 <wire x1="-2.794" y1="-5.2578" x2="2.794" y2="-5.2578" width="0.1524" layer="21"/>
@@ -12187,8 +12185,8 @@ Various common sizes : AA, AAA, 18650 (PRT-12895), 20mm coin cell and 12mm coin 
 <part name="C16" library="adafruit" deviceset="C-US" device="C3216" value="0.1u"/>
 <part name="AIN6-7" library="SparkFun-Connectors" deviceset="M02" device="1X02_NO_SILK"/>
 <part name="ADS1256" library="Texas Instruments_By_element14_Batch_1" deviceset="ADS1256IDBT" device=""/>
-<part name="SJ1-RST" library="jumper" deviceset="SJ" device=""/>
-<part name="SJ2-SYNC" library="jumper" deviceset="SJ" device=""/>
+<part name="RST" library="jumper" deviceset="SJ" device=""/>
+<part name="SYNC" library="jumper" deviceset="SJ" device=""/>
 <part name="ATMEGA328" library="SparkFun-DigitalIC" deviceset="ATMEGA328P_TQFP" device="" value="ATMEGA328P_TQFP"/>
 <part name="DS3234" library="SparkFun-FreqCtrl" deviceset="DS3234" device=""/>
 <part name="ICSP" library="SparkFun-Connectors" deviceset="M03X2" device="FEMALE" value="FEMALE 2x3"/>
@@ -12334,8 +12332,8 @@ KU Leuven</text>
 <instance part="C16" gate="G$1" x="248.92" y="-129.54"/>
 <instance part="AIN6-7" gate="G$1" x="353.06" y="-236.22" rot="R180"/>
 <instance part="ADS1256" gate="A" x="259.08" y="-10.16"/>
-<instance part="SJ1-RST" gate="1" x="198.12" y="-7.62"/>
-<instance part="SJ2-SYNC" gate="1" x="203.2" y="-12.7"/>
+<instance part="RST" gate="1" x="198.12" y="-7.62"/>
+<instance part="SYNC" gate="1" x="203.2" y="-12.7"/>
 <instance part="ATMEGA328" gate="U$1" x="177.8" y="-233.68"/>
 <instance part="DS3234" gate="G$1" x="88.9" y="-127"/>
 <instance part="ICSP" gate="G$1" x="411.48" y="-187.96"/>
@@ -13455,10 +13453,10 @@ KU Leuven</text>
 <segment>
 <wire x1="190.5" y1="-10.16" x2="187.96" y2="-10.16" width="0.1524" layer="91"/>
 <label x="187.96" y="-10.16" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="SJ1-RST" gate="1" pin="1"/>
+<pinref part="RST" gate="1" pin="1"/>
 <wire x1="190.5" y1="-10.16" x2="190.5" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="-7.62" x2="193.04" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="SJ2-SYNC" gate="1" pin="1"/>
+<pinref part="SYNC" gate="1" pin="1"/>
 <wire x1="190.5" y1="-10.16" x2="190.5" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="-12.7" x2="198.12" y2="-12.7" width="0.1524" layer="91"/>
 <junction x="190.5" y="-10.16"/>
@@ -13593,14 +13591,14 @@ KU Leuven</text>
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="SJ1-RST" gate="1" pin="2"/>
+<pinref part="RST" gate="1" pin="2"/>
 <pinref part="ADS1256" gate="A" pin="~RESET"/>
 <wire x1="203.2" y1="-7.62" x2="238.76" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
-<pinref part="SJ2-SYNC" gate="1" pin="2"/>
+<pinref part="SYNC" gate="1" pin="2"/>
 <pinref part="ADS1256" gate="A" pin="~SYNC,_~PDWN"/>
 <wire x1="208.28" y1="-12.7" x2="238.76" y2="-12.7" width="0.1524" layer="91"/>
 </segment>

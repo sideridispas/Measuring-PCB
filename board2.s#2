@@ -9374,10 +9374,10 @@ Source: http://www.osram.convergy.de/</description>
 <pad name="1A" x="-23.144" y="0" drill="1.6" diameter="2.54" shape="long" rot="R90"/>
 <text x="-15.365" y="3.175" size="1.778" layer="25" ratio="10">&gt;NAME</text>
 <text x="-15.365" y="-5.08" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-15.619" y1="-2.159" x2="-7.491" y2="-1.651" layer="21"/>
-<rectangle x1="-15.619" y1="1.651" x2="-7.491" y2="2.159" layer="21"/>
 <pad name="1B" x="-16.384" y="0" drill="1.6" diameter="2.54" shape="long" rot="R90"/>
 <pad name="2B" x="-6.726" y="0" drill="1.6" diameter="2.54" shape="long" rot="R90"/>
+<wire x1="-15.494" y1="1.905" x2="-7.493" y2="1.905" width="0.127" layer="21"/>
+<wire x1="-15.494" y1="-1.905" x2="-7.493" y2="-1.905" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -12268,7 +12268,7 @@ Various common sizes : AA, AAA, 18650 (PRT-12895), 20mm coin cell and 12mm coin 
 <text x="-5.08" y="-91.44" size="5.08" layer="98">Real Time Clock</text>
 <text x="-5.08" y="-175.26" size="5.08" layer="98">Standalone Arduino (atmega328)</text>
 <text x="322.58" y="-175.26" size="5.08" layer="98">Connectors</text>
-<text x="381" y="-228.6" size="6.4516" layer="98">Measuring PCB v2.6</text>
+<text x="381" y="-228.6" size="6.4516" layer="98">Measuring PCB v2.7</text>
 <wire x1="370.84" y1="-281.94" x2="370.84" y2="-248.92" width="0.1524" layer="98"/>
 <wire x1="370.84" y1="-248.92" x2="370.84" y2="-233.68" width="0.1524" layer="98"/>
 <wire x1="370.84" y1="-233.68" x2="370.84" y2="-215.9" width="0.1524" layer="98"/>

@@ -11050,7 +11050,7 @@ Various common sizes : AA, AAA, 18650 (PRT-12895), 20mm coin cell and 12mm coin 
 <text x="-5.08" y="-91.44" size="5.08" layer="98">Real Time Clock</text>
 <text x="-5.08" y="-175.26" size="5.08" layer="98">Standalone Arduino (atmega328)</text>
 <text x="322.58" y="-175.26" size="5.08" layer="98">Connectors</text>
-<text x="381" y="-228.6" size="6.4516" layer="98">Measuring PCB v2.5</text>
+<text x="381" y="-228.6" size="6.4516" layer="98">Measuring PCB v2.6</text>
 <wire x1="370.84" y1="-281.94" x2="370.84" y2="-248.92" width="0.1524" layer="98"/>
 <wire x1="370.84" y1="-248.92" x2="370.84" y2="-233.68" width="0.1524" layer="98"/>
 <wire x1="370.84" y1="-233.68" x2="370.84" y2="-215.9" width="0.1524" layer="98"/>
@@ -11066,7 +11066,7 @@ Various common sizes : AA, AAA, 18650 (PRT-12895), 20mm coin cell and 12mm coin 
 <wire x1="439.42" y1="-248.92" x2="513.08" y2="-248.92" width="0.1524" layer="98"/>
 <wire x1="439.42" y1="-233.68" x2="439.42" y2="-248.92" width="0.1524" layer="98"/>
 <text x="441.96" y="-238.76" size="2.54" layer="98">date</text>
-<text x="462.28" y="-246.38" size="5.08" layer="98">March 2016</text>
+<text x="462.28" y="-246.38" size="5.08" layer="98">April 2016</text>
 <text x="373.38" y="-254" size="2.54" layer="98">description</text>
 <text x="378.46" y="-279.4" size="3.302" layer="98">This board measures Voltage, Current and Temperature of a PV
 panel.In addition, it gets Date and Time stamp. The data are
