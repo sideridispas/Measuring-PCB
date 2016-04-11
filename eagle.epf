@@ -386,7 +386,7 @@ UsedLibrary="C:/Users/Paschalis/Documents/external_lbrs/phoenixcontact.lbr"
 
 [Win_1]
 Type="Schematic Editor"
-Loc="-8 -8 1357 696"
+Loc="0 0 1365 704"
 State=3
 Number=2
 File="board2.sch"
